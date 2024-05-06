@@ -1,0 +1,36 @@
+1715026420323	geckodriver	INFO	Listening on 127.0.0.1:52881
+1715026420541	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileqV51wn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715026420929	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715026421355	Marionette	INFO	Listening on port 52890
+WebDriver BiDi listening on ws://127.0.0.1:52882
+1715026421419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52882/devtools/browser/d5979ee6-0cad-4d9b-851e-751413c0dc21
+1715026423728	Marionette	INFO	Stopped listening on port 52890
+1715026437185	geckodriver	INFO	Listening on 127.0.0.1:52915
+1715026437196	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilepjwo8v"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715026437545	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715026437904	Marionette	INFO	Listening on port 52921
+WebDriver BiDi listening on ws://127.0.0.1:52916
+1715026438273	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52916/devtools/browser/6dc5d872-2505-41a0-886f-167346edfa87
+1715026439873	Marionette	INFO	Stopped listening on port 52921
+1715026446579	geckodriver	INFO	Listening on 127.0.0.1:52944
+1715026446591	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilergkgyc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715026446933	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715026447271	Marionette	INFO	Listening on port 52950
+WebDriver BiDi listening on ws://127.0.0.1:52945
+1715026447674	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52945/devtools/browser/19f03aff-1a5e-43de-a525-2b8f332fd85e
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+1715026461361	Marionette	INFO	Stopped listening on port 52950
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.

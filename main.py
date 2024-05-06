@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.dominos.ca/en/pages/order/#!/section/Coupons/category/All/?localCoupons=true'
+url = 'https://www.papajohns.com/order/specials/index.html'
 response = requests.get(url)
 
 with open('dominos.html', 'w') as file:
