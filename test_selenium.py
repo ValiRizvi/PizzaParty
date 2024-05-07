@@ -6,3 +6,5 @@ browser = webdriver.Firefox(executable_path=webdriver_path)
 
 browser.get('https://www.example.com')
 
+browser.quit()
+
