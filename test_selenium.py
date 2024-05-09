@@ -17,3 +17,5 @@ time.sleep(5)
 
 browser.quit()
 
+browser.quit()
+
