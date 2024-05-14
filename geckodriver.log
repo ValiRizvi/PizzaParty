@@ -1257,3 +1257,1137 @@ JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/
 http://requirejs.org/docs/errors.html#scripterror
 console.error: ({})
 1715646022025	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 309: Script terminated by timeout at:
+km.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:309:464
+uG/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:565:142
+aa.Ok/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:512:126
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:420
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 511: Script terminated by timeout at:
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:408
+
+1715646229375	Marionette	INFO	Stopped listening on port 49624
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715646231828	Marionette	INFO	Stopped listening on port 49158
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715646234546	Marionette	INFO	Stopped listening on port 65413
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715646304818	geckodriver	INFO	Listening on 127.0.0.1:49829
+1715646304826	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileeXThnR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715646305198	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715646305567	Marionette	INFO	Listening on port 49833
+WebDriver BiDi listening on ws://127.0.0.1:49830
+1715646305937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49830/devtools/browser/e11a8fc8-acea-46de-9e22-87fb11e7e1cd
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715646336124	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715646898198	geckodriver	INFO	Listening on 127.0.0.1:50039
+1715646898208	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileECmAYS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715646898595	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715646898905	Marionette	INFO	Listening on port 50043
+WebDriver BiDi listening on ws://127.0.0.1:50040
+1715646899324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50040/devtools/browser/ce0da56a-9608-4492-97be-b614d25a4d23
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715646907110	Marionette	INFO	Stopped listening on port 50043
+JavaScript warning: https://www.google-analytics.com/plugins/ua/ec.js, line 2: Script terminated by timeout at:
+@https://www.google-analytics.com/plugins/ua/ec.js:2:194
+@https://www.google-analytics.com/plugins/ua/ec.js:7:314
+
+1715646977841	geckodriver	INFO	Listening on 127.0.0.1:50188
+1715646977852	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilejYj5Y2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715646978231	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715646978602	Marionette	INFO	Listening on port 50192
+WebDriver BiDi listening on ws://127.0.0.1:50189
+1715646978969	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50189/devtools/browser/3869c740-b146-4a73-b8a0-7f764c37ce90
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 588: Script terminated by timeout at:
+dZ@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:588:296
+c<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:280:78
+Rv@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:556:323
+K<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:163:365
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:276
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 294: Script terminated by timeout at:
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:192
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647003271	Marionette	INFO	Stopped listening on port 50192
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.windowGlobal6442451007/customhighlighter119, type hide failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:299:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nhide@resource://devtools/client/fronts/highlighters.js:36:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nhideHighlighterType@resource://devtools/client/inspector/shared/highlighters-overlay.js:650:23\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:61:25\nscheduleAutoHideHighlighterType/timer<@resource://devtools/client/inspector/shared/highlighters-overlay.js:619:18\nnotify@resource://gre/modules/Timer.sys.mjs:49:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\nquit@chrome://remote/content/shared/Browser.sys.mjs:94:22\nGeckoDriver.prototype.quit@chrome://remote/content/marionette/driver.sys.mjs:2923:42\ndespatch@chrome://remote/content/marionette/server.sys.mjs:318:40\nexecute@chrome://remote/content/marionette/server.sys.mjs:289:16\nonPacket/<@chrome://remote/content/marionette/server.sys.mjs:262:20\nonPacket@chrome://remote/content/marionette/server.sys.mjs:263:9\n_onJSONObjectReady/<@chrome://remote/content/marionette/transport.sys.mjs:494:20\n", "resource://devtools/shared/protocol/Front.js", 105))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715647115189	geckodriver	INFO	Listening on 127.0.0.1:50337
+1715647115705	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilemXsGMd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647116159	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647116525	Marionette	INFO	Listening on port 50343
+WebDriver BiDi listening on ws://127.0.0.1:50338
+1715647116882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50338/devtools/browser/cfb23c77-04b4-4388-b8bc-01dfe3d4a286
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 294: Script terminated by timeout at:
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:192
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647126742	Marionette	INFO	Stopped listening on port 50343
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+pt@https://sc-static.net/scevent.min.js:2:5887
+Co@https://sc-static.net/scevent.min.js:2:44438
+
+1715647156158	geckodriver	INFO	Listening on 127.0.0.1:50465
+1715647156170	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileiMt0Ww"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647156555	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647156923	Marionette	INFO	Listening on port 50469
+WebDriver BiDi listening on ws://127.0.0.1:50466
+1715647157296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50466/devtools/browser/d5b4452d-bc07-435a-8703-f5e52f00c531
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647171431	Marionette	INFO	Stopped listening on port 50469
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+u.Hy@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:315
+
+1715647195646	geckodriver	INFO	Listening on 127.0.0.1:50597
+1715647195655	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilemvXk35"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647196045	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647196414	Marionette	INFO	Listening on port 50601
+WebDriver BiDi listening on ws://127.0.0.1:50598
+1715647196783	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50598/devtools/browser/8e1151fd-dc6f-47e4-a08c-881e64505be1
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+nr@https://sc-static.net/scevent.min.js:2:13684
+er/<@https://sc-static.net/scevent.min.js:2:14091
+er@https://sc-static.net/scevent.min.js:2:14157
+Ur/<@https://sc-static.net/scevent.min.js:2:17365
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4750
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+c@https://sc-static.net/scevent.min.js:2:4827
+Ur@https://sc-static.net/scevent.min.js:2:17306
+mi/<@https://sc-static.net/scevent.min.js:2:30509
+mi@https://sc-static.net/scevent.min.js:2:30589
+Si/<@https://sc-static.net/scevent.min.js:2:30876
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4750
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+m@https://sc-static.net/scevent.min.js:2:2806
+rn/o<@https://sc-static.net/scevent.min.js:2:9512
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 294: Script terminated by timeout at:
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:192
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "marketconfig/dpz.lang.home"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.constants", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.dipsAndTwists", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.initialize", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.methods", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.serviceMethod", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.swapper", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.validator", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "external/ldclient.min"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.coupons", needed by: dpz.weekLongCarryout
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "paymentmodules/gpmACI", needed by: dpz.applePay
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "paymentmodules/paymenthelpers/dpz.applePayHelper", needed by: dpz.applePay
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "abtests/DPZ_ECOM-74345"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647227062	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715647278356	geckodriver	INFO	Listening on 127.0.0.1:50740
+1715647278368	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileS4VlQy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647278772	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647279099	Marionette	INFO	Listening on port 50744
+WebDriver BiDi listening on ws://127.0.0.1:50741
+1715647279484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50741/devtools/browser/6f0d1c4d-8af7-4c4d-8e84-3983f7fbfa24
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "marketconfig/dpz.lang.home"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.constants", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.dipsAndTwists", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.initialize", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.methods", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.serviceMethod", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "abtests/DPZ_ECOM-74345"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.swapper", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "external/ldclient.min"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch.validator", needed by: dpz.mixAndMatch
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "paymentmodules/gpmACI", needed by: dpz.applePay
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.coupons", needed by: dpz.weekLongCarryout
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "paymentmodules/paymenthelpers/dpz.applePayHelper", needed by: dpz.applePay
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647310109	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715647331529	geckodriver	INFO	Listening on 127.0.0.1:50877
+1715647331568	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilequnbvp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647332381	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647332726	Marionette	INFO	Listening on port 50881
+WebDriver BiDi listening on ws://127.0.0.1:50878
+1715647333086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50878/devtools/browser/7bb4381f-9ccb-4271-9b58-61b54346e11f
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.recentlyAdded"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.mixAndMatch", needed by: dpz.cart
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.weekLongCarryout", needed by: dpz.cart
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.applePay"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "marketconfig/dpz.lang.home"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 192))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: httpActivity.owner is null
+Stack: #sendRequestBody@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:1471:7
+#dispatchActivity@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:584:30
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:700:29
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 1471, column: 7
+console.error: (new TypeError("httpActivity.owner is null", "resource://devtools/shared/network-observer/NetworkObserver.sys.mjs", 1471))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 526: Script terminated by timeout at:
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:526:408
+
+1715647363607	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 513: Script terminated by timeout at:
+aa.yh@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:513:89
+get@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:87
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:412
+
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 513: Script terminated by timeout at:
+aa.yh@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:513:42
+get@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:87
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:412
+
+1715647454335	Marionette	INFO	Stopped listening on port 50881
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715647455514	Marionette	INFO	Stopped listening on port 50744
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715647458965	Marionette	INFO	Stopped listening on port 50601
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715647461839	Marionette	INFO	Stopped listening on port 49833
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715647591399	geckodriver	INFO	Listening on 127.0.0.1:51080
+1715647591409	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileMamCKG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647591818	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647592212	Marionette	INFO	Listening on port 51084
+WebDriver BiDi listening on ws://127.0.0.1:51081
+1715647592641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51081/devtools/browser/3ed4e7d2-345d-4363-96f3-0f5e693ba78e
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647621836	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 192))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+1715647892469	geckodriver	INFO	Listening on 127.0.0.1:51303
+1715647892481	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilexGO9eu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715647892902	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715647893248	Marionette	INFO	Listening on port 51307
+WebDriver BiDi listening on ws://127.0.0.1:51304
+1715647893602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51304/devtools/browser/b78a1387-71fd-459e-99a1-5f84c5d2a664
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715647923119	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715647957793	Marionette	INFO	Stopped listening on port 51084
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js, line 17335: Script terminated by timeout at:
+pendingViewInterval<@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js:17335:7
+
+1715647960439	Marionette	INFO	Stopped listening on port 51307
+1715660038411	geckodriver	INFO	Listening on 127.0.0.1:51939
+1715660038421	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilePAPBMz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660038863	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660039230	Marionette	INFO	Listening on port 51943
+WebDriver BiDi listening on ws://127.0.0.1:51940
+1715660039596	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51940/devtools/browser/4c9e888c-fc15-45ff-9ab4-8369a8ba1d52
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 396: Script terminated by timeout at:
+L<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:396:503
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:252
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660070086	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 513: Script terminated by timeout at:
+aa.yh@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:513:89
+get@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:87
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:412
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715660126601	Marionette	INFO	Stopped listening on port 51943
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715660204118	geckodriver	INFO	Listening on 127.0.0.1:52117
+1715660204126	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilebTwtQW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660204506	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660204854	Marionette	INFO	Listening on port 52121
+WebDriver BiDi listening on ws://127.0.0.1:52118
+1715660205261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52118/devtools/browser/97b6e592-dbc9-41c5-ae7e-3da7825cd2e6
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660234661	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1023: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1023:203
+
+1715660266404	Marionette	INFO	Stopped listening on port 52121
+1715660269209	geckodriver	INFO	Listening on 127.0.0.1:52264
+1715660269321	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileIe1lM3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660269685	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660270052	Marionette	INFO	Listening on port 52268
+WebDriver BiDi listening on ws://127.0.0.1:52265
+1715660270423	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52265/devtools/browser/22abdd5e-ff37-4a16-94bb-bef6dcce1b95
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660299701	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715660322508	geckodriver	INFO	Listening on 127.0.0.1:52399
+1715660322520	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileCBnKdL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660322963	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660323344	Marionette	INFO	Listening on port 52403
+WebDriver BiDi listening on ws://127.0.0.1:52400
+1715660323724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52400/devtools/browser/180bf2f1-1cf9-4417-b2c1-11771344749c
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+e@https://sc-static.net/scevent.min.js:2:1732
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4768
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+Wi@https://sc-static.net/scevent.min.js:2:36333
+@https://sc-static.net/scevent.min.js:2:38720
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4750
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+Ot/</c/<@https://sc-static.net/scevent.min.js:2:6890
+m@https://sc-static.net/scevent.min.js:2:2806
+c@https://sc-static.net/scevent.min.js:2:6867
+
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.dominos.ca."
+1715660353048	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+console.error: (new TypeError("watcher.browserElement.browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 192))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+#onRequestHeader@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:815:29
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:670:28
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+Handler function threw an exception: TypeError: browsingContext.currentWindowGlobal is null
+Stack: isChannelFromSystemPrincipal@resource://devtools/shared/network-observer/NetworkUtils.sys.mjs:93:1
+_createResource@resource://devtools/server/actors/network-monitor/network-event-actor.js:208:40
+NetworkEventActor@resource://devtools/server/actors/network-monitor/network-event-actor.js:116:27
+onNetworkEvent@resource://devtools/server/actors/resources/network-events.js:287:19
+#createNetworkEvent@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:766:46
+@resource://devtools/shared/network-observer/NetworkObserver.sys.mjs:358:33
+makeInfallible/<@resource://devtools/shared/DevToolsInfaillibleUtils.sys.mjs:43:22
+Line: 93, column: 1
+console.error: (new TypeError("browsingContext.currentWindowGlobal is null", "resource://devtools/shared/network-observer/NetworkUtils.sys.mjs", 93))
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 511: Script terminated by timeout at:
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:408
+
+1715660488383	geckodriver	INFO	Listening on 127.0.0.1:52569
+1715660488890	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilekpWhNA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660489347	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660489721	Marionette	INFO	Listening on port 52575
+WebDriver BiDi listening on ws://127.0.0.1:52570
+1715660490086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52570/devtools/browser/35d0d8af-94ca-4719-9ab5-2c8d0c1285e7
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 513: Script terminated by timeout at:
+aa.yh@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:513:42
+get@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:119
+stop@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:87
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:412
+
+1715660519539	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715660520244	Marionette	INFO	Stopped listening on port 52403
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715660523288	Marionette	INFO	Stopped listening on port 52575
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715660525333	Marionette	INFO	Stopped listening on port 52268
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715660528193	geckodriver	INFO	Listening on 127.0.0.1:52678
+1715660528203	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofile741hln"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660528572	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660528951	Marionette	INFO	Listening on port 52682
+WebDriver BiDi listening on ws://127.0.0.1:52679
+1715660529317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52679/devtools/browser/32c84cae-ab2a-40b1-af7c-e0c6504c307b
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660558589	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15104: Script terminated by timeout at:
+@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js:15104:397
+
+1715660564799	Marionette	INFO	Stopped listening on port 52682
+1715660567133	geckodriver	INFO	Listening on 127.0.0.1:52829
+1715660567148	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileV3cpFC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660567528	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660567907	Marionette	INFO	Listening on port 52833
+WebDriver BiDi listening on ws://127.0.0.1:52830
+1715660568283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52830/devtools/browser/1781488e-97f7-47e9-a13f-4d6ffbe3e5f4
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+Z/c.send@https://sc-static.net/scevent.min.js:2:4912
+Ot/</c/<@https://sc-static.net/scevent.min.js:2:6890
+m@https://sc-static.net/scevent.min.js:2:2806
+c@https://sc-static.net/scevent.min.js:2:6867
+
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 431: Script terminated by timeout at:
+X<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:431:493
+k<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:541:373
+z<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:36:311
+L<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:397:88
+J<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:294:252
+Qk.prototype.H@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:690:467
+y</y<@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:99:392
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660597559	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c, line 511: Script terminated by timeout at:
+get@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:115
+stop@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:87
+aa.Ok/c/<@https://www.googletagmanager.com/gtag/js?id=G-6EY126Y6XR&l=dataLayer&cx=c:511:412
+
+1715660626277	Marionette	INFO	Stopped listening on port 52833
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1715660627901	geckodriver	INFO	Listening on 127.0.0.1:52969
+1715660627913	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofilez0ZnXx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660628284	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660628652	Marionette	INFO	Listening on port 52973
+WebDriver BiDi listening on ws://127.0.0.1:52970
+1715660629024	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52970/devtools/browser/f829cc33-9a4e-4017-a6bc-cd1178e98346
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660659218	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js, line 17335: Script terminated by timeout at:
+pendingViewInterval<@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js:17335:7
+
+1715660698842	Marionette	INFO	Stopped listening on port 52973
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1715660716093	geckodriver	INFO	Listening on 127.0.0.1:53125
+1715660716105	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileklxRD8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660716462	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660716831	Marionette	INFO	Listening on port 53129
+WebDriver BiDi listening on ws://127.0.0.1:53126
+1715660717201	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53126/devtools/browser/b5693543-e9a0-47f0-8389-fc0f219b619d
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/core-js-bundle.js, line 19749: Script terminated by timeout at:
+stringify@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/core-js-bundle.js:19749:21
+Yi/<@https://sc-static.net/scevent.min.js:2:39753
+Yi@https://sc-static.net/scevent.min.js:2:39826
+to@https://sc-static.net/scevent.min.js:2:40015
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4750
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+m@https://sc-static.net/scevent.min.js:2:2806
+rn/o<@https://sc-static.net/scevent.min.js:2:9512
+
+1715660740225	Marionette	INFO	Stopped listening on port 53129
+1715660745748	geckodriver	INFO	Listening on 127.0.0.1:53214
+1715660745759	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofile6d9xDz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660746110	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660746469	Marionette	INFO	Listening on port 53218
+WebDriver BiDi listening on ws://127.0.0.1:53215
+1715660746837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53215/devtools/browser/97393159-10c3-40ef-9e93-fcecc7be723b
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+1715660750196	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+e@https://sc-static.net/scevent.min.js:2:1732
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4768
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+Ot/</c/<@https://sc-static.net/scevent.min.js:2:6890
+m@https://sc-static.net/scevent.min.js:2:2806
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15104: Script terminated by timeout at:
+@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js:15104:350
+
+1715660766474	Marionette	INFO	Stopped listening on port 53218
+1715660768021	geckodriver	INFO	Listening on 127.0.0.1:53304
+1715660768033	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileXDVnuo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660768402	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660768794	Marionette	INFO	Listening on port 53308
+WebDriver BiDi listening on ws://127.0.0.1:53305
+1715660769179	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53305/devtools/browser/ddba51b2-f970-49b0-8994-143e021f5cc3
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660798417	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js, line 17335: Script terminated by timeout at:
+pendingViewInterval<@https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/boot.js:17335:7
+
+1715660799786	Marionette	INFO	Stopped listening on port 53308
+console.error: (new AbortError("IndexedDB: main/search-config-icons list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.warn: services.settings: main/search-config sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/content-relevance getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1715660801636	geckodriver	INFO	Listening on 127.0.0.1:53427
+1715660801649	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileQv7PK1"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660801999	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660802371	Marionette	INFO	Listening on port 53431
+WebDriver BiDi listening on ws://127.0.0.1:53428
+1715660802738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53428/devtools/browser/55b87599-8b2c-4aae-bfc9-a99832c6ec06
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+m@https://sc-static.net/scevent.min.js:2:2789
+c@https://sc-static.net/scevent.min.js:2:6867
+
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660832017	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1715660847167	geckodriver	INFO	Listening on 127.0.0.1:53554
+1715660847179	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/21/mlpcf37x5ys08lkcydkc9c1c0000gn/T/rust_mozprofileoGwqE6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1715660847563	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1715660847938	Marionette	INFO	Listening on port 53558
+WebDriver BiDi listening on ws://127.0.0.1:53555
+1715660848320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53555/devtools/browser/8a7f0781-ddc7-42bb-b35e-b8d1a8d84be3
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder"
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://sc-static.net/scevent.min.js, line 2: Script terminated by timeout at:
+e@https://sc-static.net/scevent.min.js:2:1817
+Z/c.send@https://sc-static.net/scevent.min.js:2:5007
+Wi@https://sc-static.net/scevent.min.js:2:36333
+@https://sc-static.net/scevent.min.js:2:38720
+Z/c/s/<@https://sc-static.net/scevent.min.js:2:4750
+m@https://sc-static.net/scevent.min.js:2:2806
+s@https://sc-static.net/scevent.min.js:2:4728
+m@https://sc-static.net/scevent.min.js:2:2806
+Z/c.send@https://sc-static.net/scevent.min.js:2:5036
+Ot/</c/<@https://sc-static.net/scevent.min.js:2:6890
+m@https://sc-static.net/scevent.min.js:2:2806
+c@https://sc-static.net/scevent.min.js:2:6867
+
+console.error: ({})
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js, line 1024: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/vjbW55W42X033PfTdVf6Ft4q/recaptcha__en.js:1024:15
+
+1715660855094	Marionette	INFO	Stopped listening on port 53431
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/site/bootlibs.js, line 15117: Error: Script error for "dpz.futureorder", needed by: site.funcs
+http://requirejs.org/docs/errors.html#scripterror
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+JavaScript warning: https://cache.dominos.com/nolo/ca/en/6_121_19/assets/build/js/external/at.js, line 14: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: ({})
+1715660877572	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 3773: TypeError: this._windows[aWindow.__SSi] is undefined
