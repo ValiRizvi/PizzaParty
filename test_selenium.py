@@ -24,13 +24,16 @@ element = WebDriverWait(driver, 10).until(
     )
 element.click()
 
+time.sleep(2)
 element = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable((By.XPATH, "//*[@id='cityFinder']"))
     )
 element.click()
 
-time.sleep(10)
+time.sleep(7)
 element.send_keys('l5m0v7' + Keys.ENTER)
+
+#driver.quit()
 
 
 
