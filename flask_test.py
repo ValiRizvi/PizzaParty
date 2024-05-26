@@ -9,14 +9,17 @@ app = Flask(__name__)
 def test():
     return 'test'
 
+
+@app.route('/scrape', methods=['POST'])
+
 def scrape():
     url = request.json('url')
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = [p.text for p in soup.find_all('p')]
-    
+
     return jsonify({'data':paragraphs})
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
