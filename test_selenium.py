@@ -3,11 +3,14 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.firefox.service import Service
 import time
 
 webdriver_path = '/Users/Vali/Desktop/python/geckodriver'
 
-driver = webdriver.Firefox(executable_path=webdriver_path)
+service = Service(webdriver_path)
+
+driver = webdriver.Firefox(service=service)
 
 # page is reloaded 3 times to ensure DOM loads
 driver.get('https://www.dominos.ca/en/pages/order/coupon')
