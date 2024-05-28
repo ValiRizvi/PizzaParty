@@ -13,10 +13,24 @@ if response.status_code == 200:
     print(response.status_code)
 
     data = response.json()
-    coupons = data.get("Coupons", {})
+    coupons_data = data.get("Coupons", {})
 
+    # make list of dictionaries
+    coupons = []
+
+    # loop through 
+    for key, value in coupons_data.items():
+        coupon = {
+            "code": value.get("Code", ""),
+            "description": value.get("Name", ""),
+            "price": value.get("Price", "")
+        }
+        coupons.append(coupon)
+
+    # convert python dictionary back to json for readability
     readable_json = json.dumps(coupons, indent=4)
 
+    # write readable json to txt file
     with open('dominos_coupons.txt', 'w') as file:
         file.write(readable_json)
     

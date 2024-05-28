@@ -1,530 +1,142 @@
-{
-    "3008": {
-        "Code": "3008",
-        "ImageCode": "CARRY-1M1T",
-        "Description": "",
-        "Name": "Carry Out Special - 1 Medium 1 Topping Pizza",
-        "Price": "9.99",
-        "Tags": {
-            "ServiceMethods": "Carryout",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside"
-            ]
-        },
-        "Local": true,
-        "Bundle": true
+[
+    {
+        "code": "3008",
+        "description": "Carry Out Special - 1 Medium 1 Topping Pizza",
+        "price": "9.99"
     },
-    "3025": {
-        "Code": "3025",
-        "ImageCode": "1MFT",
-        "Description": "",
-        "Name": "1 Medium Feast Pizza",
-        "Price": "14.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary",
-            "Remove": [
-                "BBALL",
-                "CCOUPON"
-            ],
-            "Cals": "290-270",
-            "ServingSize": "1/8 pizza"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "3025",
+        "description": "1 Medium Feast Pizza",
+        "price": "14.99"
     },
-    "3076": {
-        "Code": "3076",
-        "ImageCode": "1M3T,CB",
-        "Description": "",
-        "Name": "1 Medium 3 Topping Pizza and Domino's Pizza Cheesy Bread",
-        "Price": "17.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Cals": "Cals 420-550 per serving",
-            "Servings": "8 slices; 2pcs bread",
-            "ServingSize": "1/8 pizza; 2 pcs bread"
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "3076",
+        "description": "1 Medium 3 Topping Pizza and Domino's Pizza Cheesy Bread",
+        "price": "17.99"
     },
-    "3203": {
-        "Code": "3203",
-        "ImageCode": "1M2TPN",
-        "Description": "",
-        "Name": "1 Medium 2 Topping Pan Pizza",
-        "Price": "13.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary",
-            "Cals": "Cals 250-320 per slice",
-            "Servings": "8 slices",
-            "ServingSize": "1/8 pizza"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "3203",
+        "description": "1 Medium 2 Topping Pan Pizza",
+        "price": "13.99"
     },
-    "3275": {
-        "Code": "3275",
-        "ImageCode": "2M3T,CB",
-        "Description": "",
-        "Name": "2 Medium Pizzas With 6-Toppings Combined & 1 Cheesy Bread",
-        "Price": "26.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true,
-            "Cals": "Cals 420-550 per serving",
-            "Servings": "8 slices; 2pcs bread",
-            "ServingSize": "1/8 pizza; 2 pcs bread"
-        },
-        "Local": false,
-        "Bundle": true
+    {
+        "code": "3275",
+        "description": "2 Medium Pizzas With 6-Toppings Combined & 1 Cheesy Bread",
+        "price": "26.99"
     },
-    "3415": {
-        "Code": "3415",
-        "ImageCode": "3M3T",
-        "Description": "",
-        "Name": "3 Medium 3 Topping Pizzas",
-        "Price": "32.99",
-        "Tags": {
-            "EffectiveOn": "2013-03-04",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ]
-        },
-        "Local": false,
-        "Bundle": false
+    {
+        "code": "3415",
+        "description": "3 Medium 3 Topping Pizzas",
+        "price": "32.99"
     },
-    "4008": {
-        "Code": "4008",
-        "ImageCode": "CARRY-1L1T",
-        "Description": "",
-        "Name": "Carry Out Only Special - 1 Large 1 Topping Pizza",
-        "Price": "11.99",
-        "Tags": {
-            "ServiceMethods": "Carryout",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside"
-            ]
-        },
-        "Local": false,
-        "Bundle": true
+    {
+        "code": "4008",
+        "description": "Carry Out Only Special - 1 Large 1 Topping Pizza",
+        "price": "11.99"
     },
-    "4191": {
-        "Code": "4191",
-        "ImageCode": "1LFT",
-        "Description": "",
-        "Name": "1 Large Feast Pizza",
-        "Price": "17.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary",
-            "Cals": "250-360",
-            "ServingSize": "1/8 pizza"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "4191",
+        "description": "1 Large Feast Pizza",
+        "price": "17.99"
     },
-    "4201": {
-        "Code": "4201",
-        "ImageCode": "1L4T",
-        "Description": "",
-        "Name": "1 Large 4 Topping Pizza",
-        "Price": "14.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary",
-            "Cals": "Cals 250-370 per slice",
-            "Servings": "8 slices",
-            "ServingSize": "1/8 pizza"
-        },
-        "Local": false,
-        "Bundle": false
+    {
+        "code": "4201",
+        "description": "1 Large 4 Topping Pizza",
+        "price": "14.99"
     },
-    "4219": {
-        "Code": "4219",
-        "ImageCode": "2L4T",
-        "Description": "",
-        "Name": "2 Large 4-Topping Pizzas (8 Toppings Combined)",
-        "Price": "23.99",
-        "Tags": {
-            "EffectiveOn": "2021-06-07",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "4219",
+        "description": "2 Large 4-Topping Pizzas (8 Toppings Combined)",
+        "price": "23.99"
     },
-    "4276": {
-        "Code": "4276",
-        "ImageCode": "2L3T,CB",
-        "Description": "",
-        "Name": "2 Large 3 Topping pizzas and Domino's Pizza Cheesy Bread",
-        "Price": "30.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Cals": "Cals 490-610 per serving",
-            "Servings": "8 slices; 2pcs bread",
-            "ServingSize": "1/8 pizza; 2 pcs bread"
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "4276",
+        "description": "2 Large 3 Topping pizzas and Domino's Pizza Cheesy Bread",
+        "price": "30.99"
     },
-    "4415": {
-        "Code": "4415",
-        "ImageCode": "3L3T",
-        "Description": "",
-        "Name": "3 Large 3 Topping Pizzas",
-        "Price": "39.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true
-        },
-        "Local": false,
-        "Bundle": false
+    {
+        "code": "4415",
+        "description": "3 Large 3 Topping Pizzas",
+        "price": "39.99"
     },
-    "5021": {
-        "Code": "5021",
-        "ImageCode": "1XL4T",
-        "Description": "",
-        "Name": "1 X-Large 4 Topping Pizza",
-        "Price": "18.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "Cals": "Cals 280-430 per slice",
-            "Servings": "10 slices",
-            "ServingSize": "1/10 pizza"
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "5021",
+        "description": "1 X-Large 4 Topping Pizza",
+        "price": "18.99"
     },
-    "8066": {
-        "Code": "8066",
-        "ImageCode": "CB,2-591",
-        "Description": "",
-        "Name": "Domino's Pizza Cheesy Bread and 2 500 ml Coca-Cola\u00ae products.",
-        "Price": "7.99",
-        "Tags": {
-            "EffectiveOn": "2022-01-01",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary"
-        },
-        "Local": false,
-        "Bundle": true
+    {
+        "code": "8066",
+        "description": "Domino's Pizza Cheesy Bread and 2 500 ml Coca-Cola\u00ae products.",
+        "price": "7.99"
     },
-    "8329": {
-        "Code": "8329",
-        "ImageCode": "MINI2",
-        "Description": "",
-        "Name": "Choose any 2 or more: Cinna Stix\u00ae, Breadsticks, 2 Chocolate Lava Crunch Cakes, 1 6pc Marbled Cookie Brownie, or 16pc Parmesan Bread Bites. Price is per item. (Cheesy Bread may be included at an additional charge)",
-        "Price": "4.49",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8329",
+        "description": "Choose any 2 or more: Cinna Stix\u00ae, Breadsticks, 2 Chocolate Lava Crunch Cakes, 1 6pc Marbled Cookie Brownie, or 16pc Parmesan Bread Bites. Price is per item. (Cheesy Bread may be included at an additional charge)",
+        "price": "4.49"
     },
-    "8367": {
-        "Code": "8367",
-        "ImageCode": "1L2T",
-        "Description": "",
-        "Name": "Carryout Only - Any Crust - Small, Medium or Large 2-Topping Pizzas",
-        "Price": "12.99",
-        "Tags": {
-            "EffectiveOn": "2023-05-29",
-            "ServiceMethods": "Carryout",
-            "ValidServiceMethods": "Carryout",
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8367",
+        "description": "Carryout Only - Any Crust - Small, Medium or Large 2-Topping Pizzas",
+        "price": "12.99"
     },
-    "8418": {
-        "Code": "8418",
-        "ImageCode": "1P",
-        "Description": "",
-        "Name": "Add Any Pasta to your Order",
-        "Price": "8.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8418",
+        "description": "Add Any Pasta to your Order",
+        "price": "8.99"
     },
-    "8525": {
-        "Code": "8525",
-        "ImageCode": "2MFT",
-        "Description": "",
-        "Name": "2 Medium Feast Pizzas",
-        "Price": "25.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8525",
+        "description": "2 Medium Feast Pizzas",
+        "price": "25.99"
     },
-    "8562": {
-        "Code": "8562",
-        "ImageCode": "ADD,CB,LTR",
-        "Description": "",
-        "Name": "Add a Domino's Pizza Cheesy Bread and a 2-Litre of Coca-Cola\u00ae",
-        "Price": "6.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "8562",
+        "description": "Add a Domino's Pizza Cheesy Bread and a 2-Litre of Coca-Cola\u00ae",
+        "price": "6.99"
     },
-    "8581": {
-        "Code": "8581",
-        "ImageCode": "CNB",
-        "Description": "",
-        "Name": "Add 32pc Cinna Bites to your order",
-        "Price": "9.99",
-        "Tags": {
-            "EffectiveOn": "2023-10-16",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8581",
+        "description": "Add 32pc Cinna Bites to your order",
+        "price": "9.99"
     },
-    "8592": {
-        "Code": "8592",
-        "ImageCode": "C2",
-        "Description": "",
-        "Name": "Add Any Specialty Chicken",
-        "Price": "9.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "8592",
+        "description": "Add Any Specialty Chicken",
+        "price": "9.99"
     },
-    "8629": {
-        "Code": "8629",
-        "ImageCode": "2M1T,16PB,16CB,LTR",
-        "Description": "",
-        "Name": "2 Medium 1-Topping Pizzas, 16pc Parm Bites, 16pc Cinna Bites and a 2L Coke Product",
-        "Price": "28.99",
-        "Tags": {
-            "EffectiveOn": "2024-04-01",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "8629",
+        "description": "2 Medium 1-Topping Pizzas, 16pc Parm Bites, 16pc Cinna Bites and a 2L Coke Product",
+        "price": "28.99"
     },
-    "8642": {
-        "Code": "8642",
-        "ImageCode": "1AAT",
-        "Description": "",
-        "Name": "40% Off Build Your Own Pizzas - Monday Only",
-        "Price": "",
-        "Tags": {
-            "Days": "Mo",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ]
-        },
-        "Local": true,
-        "Bundle": true
+    {
+        "code": "8642",
+        "description": "40% Off Build Your Own Pizzas - Monday Only",
+        "price": ""
     },
-    "9730": {
-        "Code": "9730",
-        "ImageCode": "2L2T",
-        "Description": "",
-        "Name": "Unlimited Large 2 Topping Pizzas. (Price is per pizza. 2 Pizza Minimum.)",
-        "Price": "12.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "9730",
+        "description": "Unlimited Large 2 Topping Pizzas. (Price is per pizza. 2 Pizza Minimum.)",
+        "price": "12.99"
     },
-    "98805": {
-        "Code": "98805",
-        "ImageCode": "ADDMLC",
-        "Description": "",
-        "Name": "Add a 6-piece Marbled Cookie Brownie",
-        "Price": "3.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true,
-            "ServingSize": "1 Piece",
-            "Cals": "190"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "98805",
+        "description": "Add a 6-piece Marbled Cookie Brownie",
+        "price": "3.99"
     },
-    "815WS": {
-        "Code": "815WS",
-        "ImageCode": "ADD,2-591",
-        "Description": "",
-        "Name": "Add 2 500ml Coca-Cola Soft Drinks or Dasani Water (500ml Nestea may be additional)",
-        "Price": "4.99",
-        "Tags": {
-            "EffectiveOn": "2021-11-01",
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "MultiSame": true,
-            "Cals": "Cals 0-220 per 500ml",
-            "Servings": "2 bottles",
-            "ServingSize": "500ml"
-        },
-        "Local": false,
-        "Bundle": false
+    {
+        "code": "815WS",
+        "description": "Add 2 500ml Coca-Cola Soft Drinks or Dasani Water (500ml Nestea may be additional)",
+        "price": "4.99"
     },
-    "893WS": {
-        "Code": "893WS",
-        "ImageCode": "ANY2",
-        "Description": "",
-        "Name": "Get Any 2 or More: Pizza, Stuffed Cheesy Bread, Pasta, Chicken, Desserts and More (extra charge may apply for chicken products). Price is per item.",
-        "Price": "8.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "Combine": "Complementary",
-            "OnFulFilledUpsellCoupon": "8223",
-            "WizardUpsells": [
-                "{'Pizza'",
-                "{'TitleText'",
-                "'Looking for Specialty Pizza?'"
-            ],
-            "'LinkText':'Upgrade for only $2 more'": true,
-            "'CouponCode':'8731'}}": true
-        },
-        "Local": false,
-        "Bundle": false
+    {
+        "code": "893WS",
+        "description": "Get Any 2 or More: Pizza, Stuffed Cheesy Bread, Pasta, Chicken, Desserts and More (extra charge may apply for chicken products). Price is per item.",
+        "price": "8.99"
     },
-    "SCHBPU": {
-        "Code": "SCHBPU",
-        "ImageCode": "SCB",
-        "Description": "",
-        "Name": "Add a Stuffed Cheesy Bread to your Order",
-        "Price": "9.99",
-        "Tags": {
-            "ValidServiceMethods": [
-                "Carryout",
-                "Carside",
-                "Delivery"
-            ],
-            "MultiSame": true,
-            "Combine": "Complementary"
-        },
-        "Local": true,
-        "Bundle": false
+    {
+        "code": "SCHBPU",
+        "description": "Add a Stuffed Cheesy Bread to your Order",
+        "price": "9.99"
     }
-}
+]
