@@ -13,7 +13,7 @@ def test():
 @app.route('/scrape', methods=['POST'])
 
 def scrape():
-    url = request.json('url')
+    url = request.json.get('url')
     response = requests.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
     paragraphs = [p.text for p in soup.find_all('p')]
