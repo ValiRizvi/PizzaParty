@@ -15,10 +15,9 @@ def test():
 def scrape():
     url = request.json.get('url')
     response = requests.get(url)
-    soup = BeautifulSoup(response.content, 'html.parser')
-    paragraphs = [p.text for p in soup.find_all('p')]
+    data = response.json()
 
-    return jsonify({'data':paragraphs})
+    return jsonify({'data':data})
 
 
 if __name__ == '__main__':
