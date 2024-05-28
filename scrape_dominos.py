@@ -13,7 +13,7 @@ if response.status_code == 200:
     print(response.status_code)
 
     data = response.json()
-    coupons_data = data.get("Coupons", {})
+    coupons_data = data.get('Coupons', {})
 
     # make list of dictionaries
     coupons = []
@@ -21,9 +21,9 @@ if response.status_code == 200:
     # loop through 
     for key, value in coupons_data.items():
         coupon = {
-            "code": value.get("Code", ""),
-            "description": value.get("Name", ""),
-            "price": value.get("Price", "")
+            'code': value.get('Code', ''),
+            'description': value.get('Name', ''),
+            'price': value.get('Price', '')
         }
         coupons.append(coupon)
 
@@ -35,5 +35,5 @@ if response.status_code == 200:
         file.write(readable_json)
     
 else:
-    print(f"Failed to retrieve data: {response.status_code}")
+    print(f'Failed to retrieve data: {response.status_code}')
     print(response.text)
