@@ -11,8 +11,11 @@ response = requests.get(api_url)
 
 if response.status_code == 200:
     print(response.status_code)
+
     data = response.json()
-    readable_json = json.dumps(data, indent=4)
+    coupons = data.get("Coupons", {})
+
+    readable_json = json.dumps(coupons, indent=4)
 
     with open('dominos_coupons.txt', 'w') as file:
         file.write(readable_json)
