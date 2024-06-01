@@ -31,7 +31,7 @@ if response.status_code == 200:
     readable_json = json.dumps(coupons, indent=4)
 
     # write readable json to txt file
-    with open('dominos_coupons.txt', 'w') as file:
+    with open('dominos.json', 'w') as file:
         file.write(readable_json)
     
 else:

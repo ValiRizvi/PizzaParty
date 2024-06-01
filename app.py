@@ -1,12 +1,12 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, render_template
 import requests
 
 app = Flask(__name__)
 
 @app.route('/')
 
-def test():
-    return 'test'
+def home():
+    return render_template('index.html')
 
 
 @app.route('/scrape', methods=['POST'])
