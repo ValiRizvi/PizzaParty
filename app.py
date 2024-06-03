@@ -1,4 +1,4 @@
-from flask import Flask, jsonify, request, render_template
+from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
 
 app = Flask(__name__)
@@ -6,7 +6,8 @@ app = Flask(__name__)
 @app.route('/')
 
 def home():
-    return render_template('index.html')
+    error = request.args.get('error')
+    return render_template('index.html', error=error)
 
 
 @app.route('/submit', methods=['GET'])
@@ -14,6 +15,15 @@ def home():
 def submit():
     number = request.args.get('number')
     size = request.args.get('size')
+
+    if not number or  not size:
+        error = 'Please select both a number and size for the pizza(s).'
+        return redirect(url_for('home', error=error))
+
+    with open('user_input.txt', 'w') as file:
+        file.write(number + '\n')
+        file.write(size)
+
     return f"number: {number} size: {size}"
 
 

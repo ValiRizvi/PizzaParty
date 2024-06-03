@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Pizza Form</title>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('pizzaForm').reset();
+            
+            if (window.location.href.indexOf('error') !== -1) {
+                history.replaceState({}, document.title, "/");
+            }
+        }
+    </script>
 </head>
 <body>
     <h1>Pizza Form</h1>
 
-    <form action="/submit" method="GET">
+    <form id="pizzaForm" action="/submit" method="GET">
         <label for="number"># of pizzas:</label>
         <select name="number", id="number">
+            <option value="" selected disabled>0</option>
             <option value="1">1</option> 
             <option value="2">2</option> 
             <option value="3">3</option> 
@@ -17,8 +28,9 @@
         </select>
         <br>
         <br>
-        <label for="size">Size of pizza(s)</label>
+        <label for="size">Size of pizza(s):</label>
         <select name="size", id="size">
+            <option value="" selected disabled></option>
             <option value="small">Small</option> 
             <option value="medium">Medium</option> 
             <option value="large">Large</option> 
@@ -28,5 +40,9 @@
         <br>
         <button type="submit">Submit</button>
     </form>
+
+    {% if error %}
+        <p style="color: red;">{{error}}</p>
+    {% endif %}
 </body>
 </html>
