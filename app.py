@@ -9,6 +9,14 @@ def home():
     return render_template('index.html')
 
 
+@app.route('/submit', methods=['GET'])
+
+def submit():
+    number = request.args.get('number')
+    size = request.args.get('size')
+    return f"number: {number} size: {size}"
+
+
 @app.route('/scrape', methods=['POST'])
 
 def scrape():

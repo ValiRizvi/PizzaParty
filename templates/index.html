@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Pizza Form</title>
 </head>
 <body>
-    <h1>home</h1>
-    <p></p>
+    <h1>Pizza Form</h1>
+
+    <form action="/submit" method="GET">
+        <label for="number"># of pizzas:</label>
+        <select name="number", id="number">
+            <option value="1">1</option> 
+            <option value="2">2</option> 
+            <option value="3">3</option> 
+            <option value="4">4+</option> 
+        </select>
+        <br>
+        <br>
+        <label for="size">Size of pizza(s)</label>
+        <select name="size", id="size">
+            <option value="small">Small</option> 
+            <option value="medium">Medium</option> 
+            <option value="large">Large</option> 
+            <option value="xlarge">X-Large</option> 
+        </select>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
