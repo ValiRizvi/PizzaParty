@@ -32,9 +32,8 @@ def submit():
 def scrape():
     url = request.json.get('url')
     response = requests.get(url)
-    data = response.json()
 
-    return jsonify({'data':data})
+    return jsonify(response.json())
 
 
 if __name__ == '__main__':

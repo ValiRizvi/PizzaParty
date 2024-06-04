@@ -7,7 +7,8 @@ store_number = 10285
 
 api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
 
-response = requests.get(api_url)
+payload = {'url': api_url}
+response = requests.post(app_url, json=payload)
 
 if response.status_code == 200:
     print(response.status_code)

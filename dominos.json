@@ -70,6 +70,11 @@
         "price": "7.99"
     },
     {
+        "code": "815WS",
+        "description": "Add 2 500ml Coca-Cola Soft Drinks or Dasani Water (500ml Nestea may be additional)",
+        "price": "4.99"
+    },
+    {
         "code": "8329",
         "description": "Choose any 2 or more: Cinna Stix\u00ae, Breadsticks, 2 Chocolate Lava Crunch Cakes, 1 6pc Marbled Cookie Brownie, or 16pc Parmesan Bread Bites. Price is per item. (Cheesy Bread may be included at an additional charge)",
         "price": "4.49"
@@ -115,6 +120,11 @@
         "price": ""
     },
     {
+        "code": "893WS",
+        "description": "Get Any 2 or More: Pizza, Stuffed Cheesy Bread, Pasta, Chicken, Desserts and More (extra charge may apply for chicken products). Price is per item.",
+        "price": "8.99"
+    },
+    {
         "code": "9730",
         "description": "Unlimited Large 2 Topping Pizzas. (Price is per pizza. 2 Pizza Minimum.)",
         "price": "12.99"
@@ -123,16 +133,6 @@
         "code": "98805",
         "description": "Add a 6-piece Marbled Cookie Brownie",
         "price": "3.99"
-    },
-    {
-        "code": "815WS",
-        "description": "Add 2 500ml Coca-Cola Soft Drinks or Dasani Water (500ml Nestea may be additional)",
-        "price": "4.99"
-    },
-    {
-        "code": "893WS",
-        "description": "Get Any 2 or More: Pizza, Stuffed Cheesy Bread, Pasta, Chicken, Desserts and More (extra charge may apply for chicken products). Price is per item.",
-        "price": "8.99"
     },
     {
         "code": "SCHBPU",
