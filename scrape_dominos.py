@@ -7,8 +7,11 @@ store_number = 10285
 
 api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
 
+
+# send request to flask scrape endpoint with the url to scrape as the json payload
 payload = {'url': api_url}
 response = requests.post(app_url, json=payload)
+
 
 if response.status_code == 200:
     print(response.status_code)
@@ -28,7 +31,7 @@ if response.status_code == 200:
         }
         coupons.append(coupon)
 
-    # convert python dictionary back to json for readability
+    # convert python dictionary to json for readability
     readable_json = json.dumps(coupons, indent=4)
 
     # write readable json to txt file

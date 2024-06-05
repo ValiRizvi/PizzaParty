@@ -1,0 +1,4184 @@
+{
+    "Granularity": "None",
+    "Address": {
+        "Street": "",
+        "StreetNumber": "",
+        "StreetName": "",
+        "UnitType": "",
+        "UnitNumber": "",
+        "Neighborhood": "",
+        "StreetRange": "",
+        "City": "",
+        "Region": "CA",
+        "PostalCode": "",
+        "Latitude": 43.5547805,
+        "Longitude": -79.734607,
+        "SubNeighborhood": "",
+        "SectorName": "",
+        "AddressLine3": null,
+        "AddressLine4": null
+    },
+    "Stores": [
+        {
+            "StoreID": "10285",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-567-7777",
+            "StreetName": "2555 Erin Centre Blvd",
+            "PostalCode": "L5M5G9",
+            "City": "Mississauga",
+            "AddressDescription": "2555 Erin Centre Blvd\nMississauga, ON L5M5G9\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5628",
+                "StoreLongitude": "-79.7105"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 15,
+                    "Max": 25
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.56284,
+            "Longitude": -79.71053,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 2952.3664624206467,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10344",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-824-0300",
+            "StreetName": "6750 Winston Churchill Blvd",
+            "PostalCode": "L5N4C4",
+            "City": "Mississauga",
+            "AddressDescription": "6750 Winston Churchill Blvd\nMississauga, ON L5N4C4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5828",
+                "StoreLongitude": "-79.7651"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.5828,
+            "Longitude": -79.76513,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 5484.285704468774,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10346",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-569-9900",
+            "StreetName": "3405 Glen Erin Dr Unit 3",
+            "PostalCode": "L5L3S2",
+            "City": "Mississauga",
+            "AddressDescription": "3405 Glen Erin Dr Unit 3\nMississauga, ON L5L3S2\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5365",
+                "StoreLongitude": "-79.6848"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 25,
+                    "Max": 35
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.53648,
+            "Longitude": -79.68495,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 6201.290780124748,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10347",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-803-9000",
+            "StreetName": "4040 Creditview Rd",
+            "PostalCode": "L5C3Y8",
+            "City": "Mississauga",
+            "AddressDescription": "4040 Creditview Rd\nMississauga, ON L5C3Y8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5681",
+                "StoreLongitude": "-79.6664"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.5681,
+            "Longitude": -79.66644,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 7859.344859429378,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10402",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-755-0596",
+            "StreetName": "801 Matheson Blvd W",
+            "PostalCode": "L5V2N6",
+            "City": "Mississauga",
+            "AddressDescription": "801 Matheson Blvd W\nMississauga, ON L5V2N6\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6062",
+                "StoreLongitude": "-79.6914"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 11,
+                    "Max": 16
+                },
+                "Delivery": {
+                    "Min": 26,
+                    "Max": 36
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.60621,
+            "Longitude": -79.69171,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 9233.811535293116,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "39041",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-257-2900",
+            "StreetName": "2387 Trafalgar Rd Unit 1",
+            "PostalCode": "L6H6K7",
+            "City": "OAKVILLE",
+            "AddressDescription": "2387 Trafalgar Rd Unit 1\nOAKVILLE, ON L6H6K7\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "Delivery": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.4852",
+                "StoreLongitude": "-79.7139"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.48519,
+            "Longitude": -79.71394,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 10928.15103152814,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10516",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "647-417-7889",
+            "StreetName": "20 Kingsbridge Garden Cir Unit 1B",
+            "PostalCode": "L5R3K6",
+            "City": "Mississauga",
+            "AddressDescription": "20 Kingsbridge Garden Cir Unit 1B\nMississauga, ON L5R3K6\nEnter off of Tucana Crt.",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "Delivery": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "Enter off of Tucana Crt.",
+            "LanguageLocationInfo": {
+                "en": "Enter off of Tucana Crt."
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "Enter off of Tucana Crt.",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6026",
+                "StoreLongitude": "-79.6489"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 41,
+                    "Max": 51
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.60264,
+            "Longitude": -79.64895,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 12041.93714511528,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10488",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-456-7227",
+            "StreetName": "8005 Financial Dr Unit A3",
+            "PostalCode": "L6Y6A1",
+            "City": "BRAMPTON",
+            "AddressDescription": "8005 Financial Dr Unit A3\nBRAMPTON, ON L6Y6A1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.633",
+                "StoreLongitude": "-79.7705"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 25,
+                    "Max": 35
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.63297,
+            "Longitude": -79.77048,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 12664.138571887357,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "39057",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-878-0070",
+            "StreetName": "9010 LOUIS ST LAURENT AVE Unit 8",
+            "PostalCode": "L9E1X7",
+            "City": "MILTON",
+            "AddressDescription": "9010 LOUIS ST LAURENT AVE Unit 8\nMILTON, ON L9E1X7\nLocated in FreshCo plaza",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "Located in FreshCo plaza",
+            "LanguageLocationInfo": {
+                "en": "Located in FreshCo plaza"
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": false,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "Located in FreshCo plaza",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.505571",
+                "StoreLongitude": "-79.836045"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.50601,
+            "Longitude": -79.83618,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 13561.879552453584,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10499",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-855-9000",
+            "StreetName": "1684 Lakeshore Rd W Unit 23",
+            "PostalCode": "L5J1J5",
+            "City": "MISSISSAUGA",
+            "AddressDescription": "1684 Lakeshore Rd W Unit 23\nMISSISSAUGA, ON L5J1J5\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5182",
+                "StoreLongitude": "-79.6211"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.51821,
+            "Longitude": -79.62106,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 13831.317796915493,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10295",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-270-3030",
+            "StreetName": "41 Dundas St East",
+            "PostalCode": "L5A1V9",
+            "City": "Mississauga",
+            "AddressDescription": "41 Dundas St East\nMississauga, ON L5A1V9\nAdditional parking in the back.",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "Additional parking in the back.",
+            "LanguageLocationInfo": {
+                "en": "Additional parking in the back."
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "Additional parking in the back.",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5815",
+                "StoreLongitude": "-79.6154"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.58151,
+            "Longitude": -79.61537,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 13894.171602030896,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10278",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-844-0030",
+            "StreetName": "380 Iroquois Shore Rd",
+            "PostalCode": "L6H1M4",
+            "City": "Oakville",
+            "AddressDescription": "380 Iroquois Shore Rd\nOakville, ON L6H1M4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-12:00am",
+                "Delivery": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.4651",
+                "StoreLongitude": "-79.6844"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 15,
+                    "Max": 24
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.46512,
+            "Longitude": -79.68442,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 14852.782786605982,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10536",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-875-1666",
+            "StreetName": "1594 Leger Way Unit 4",
+            "PostalCode": "L9T7K6",
+            "City": "Milton",
+            "AddressDescription": "1594 Leger Way Unit 4\nMilton, ON L9T7K6\nOpen Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+            "LanguageLocationInfo": {
+                "en": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday"
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": true,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": " ****Wait times may be longer than projected between 4-8pm****"
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.4805",
+                "StoreLongitude": "-79.8426"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.48057,
+            "Longitude": -79.84254,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 16557.17349001869,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10348",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-238-4999",
+            "StreetName": "1038 Burnhamthorpe Rd E",
+            "PostalCode": "L4Y2X6",
+            "City": "Mississauga",
+            "AddressDescription": "1038 Burnhamthorpe Rd E\nMississauga, ON L4Y2X6\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6145",
+                "StoreLongitude": "-79.6106"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.61454,
+            "Longitude": -79.61061,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 16579.328881768924,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10390",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-452-8111",
+            "StreetName": "1 Steeles Ave E",
+            "PostalCode": "L6W4J4",
+            "City": "Brampton",
+            "AddressDescription": "1 Steeles Ave E\nBrampton, ON L6W4J4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Sa 10:30am-2:00am",
+                "Delivery": "Su-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6663",
+                "StoreLongitude": "-79.7326"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 19
+                },
+                "Delivery": {
+                    "Min": 24,
+                    "Max": 39
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.66593,
+            "Longitude": -79.73221,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 17090.90132921306,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10386",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-469-6004",
+            "StreetName": "2690 Westoak Trails Blvd",
+            "PostalCode": "L6M3T3",
+            "City": "Oakville",
+            "AddressDescription": "2690 Westoak Trails Blvd\nOakville, ON L6M3T3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "Delivery": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.439",
+                "StoreLongitude": "-79.7508"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 8,
+                    "Max": 13
+                },
+                "Delivery": {
+                    "Min": 25,
+                    "Max": 35
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.43896,
+            "Longitude": -79.75063,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 17862.74311136363,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10287",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-875-3030",
+            "StreetName": "405 Martin St",
+            "PostalCode": "L9T2R8",
+            "City": "Milton",
+            "AddressDescription": "405 Martin St\nMilton, ON L9T2R8\nOpen Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-We 10:30am-12:00am\nTh 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+            "LanguageLocationInfo": {
+                "en": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday"
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": true,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "Open Until 12AM Daily, 1 AM Thursday and 2AM Friday & Saturday",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5215",
+                "StoreLongitude": "-79.8932"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.52145,
+            "Longitude": -79.89315,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 18376.11274435191,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10400",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-891-7878",
+            "StreetName": "645 Lakeshore Rd E",
+            "PostalCode": "L5G1J5",
+            "City": "Mississauga",
+            "AddressDescription": "645 Lakeshore Rd E\nMississauga, ON L5G1J5\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.5697",
+                "StoreLongitude": "-79.567"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.56969,
+            "Longitude": -79.567,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 18797.987812311527,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10284",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-459-9090",
+            "StreetName": "370 Main St N",
+            "PostalCode": "L6V4A4",
+            "City": "Brampton",
+            "AddressDescription": "370 Main St N\nBrampton, ON L6V4A4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Th-Mo 10:30am-2:00am\nTu-We 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Th-Mo 10:30am-2:00am\nTu-We 10:30am-1:00am",
+                "Delivery": "Th-Mo 10:30am-2:00am\nTu-We 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6962",
+                "StoreLongitude": "-79.7708"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.69636,
+            "Longitude": -79.77096,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 22145.716205051755,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10364",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-702-8800",
+            "StreetName": "324 Guelph St Unit 10",
+            "PostalCode": "L7G4B5",
+            "City": "Georgetown",
+            "AddressDescription": "324 Guelph St Unit 10\nGeorgetown, ON L7G4B5\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6488",
+                "StoreLongitude": "-79.8902"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.6488,
+            "Longitude": -79.89023,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 22561.211208627217,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10482",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-622-8222",
+            "StreetName": "460 Renforth Dr Unit 11",
+            "PostalCode": "M9C2N2",
+            "City": "Etobicoke",
+            "AddressDescription": "460 Renforth Dr Unit 11\nEtobicoke, ON M9C2N2\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6505",
+                "StoreLongitude": "-79.5801"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.65046,
+            "Longitude": -79.58013,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 22628.56329556131,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10547",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-251-5251",
+            "StreetName": "3345 LAKE SHORE BLVD W",
+            "PostalCode": "M8W1N1",
+            "City": "ETOBICOKE",
+            "AddressDescription": "3345 LAKE SHORE BLVD W\nETOBICOKE, ON M8W1N1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.596",
+                "StoreLongitude": "-79.5256"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 16
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.59602,
+            "Longitude": -79.52565,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 24108.664612581062,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10432",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-827-3338",
+            "StreetName": "2298 Lakeshore Rd W",
+            "PostalCode": "L6L1H3",
+            "City": "Oakville",
+            "AddressDescription": "2298 Lakeshore Rd W\nOakville, ON L6L1H3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "Delivery": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3982",
+                "StoreLongitude": "-79.7071"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 16,
+                    "Max": 26
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.39816,
+            "Longitude": -79.70712,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 24220.46220845764,
+            "NoCarryoutOrdersUntil": "2024-05-21 05:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10338",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-846-9999",
+            "StreetName": "1 Wexford Rd",
+            "PostalCode": "L6Z2W1",
+            "City": "Brampton",
+            "AddressDescription": "1 Wexford Rd\nBrampton, ON L6Z2W1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "Delivery": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7098",
+                "StoreLongitude": "-79.7909"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.70979,
+            "Longitude": -79.79077,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 24646.97310947332,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10551",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-677-7772",
+            "StreetName": "2855 DERRY RD E 5&6",
+            "PostalCode": "L4T1A6",
+            "City": "MISSISSAUGA",
+            "AddressDescription": "2855 DERRY RD E 5&6\nMISSISSAUGA, ON L4T1A6\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7023",
+                "StoreLongitude": "-79.6447"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.70229,
+            "Longitude": -79.64467,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 24796.87310026796,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10591",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "289-948-0690",
+            "StreetName": "100 PEEL CENTRE DR Unit 100",
+            "PostalCode": "L6T4G8",
+            "City": "BRAMPTON",
+            "AddressDescription": "100 PEEL CENTRE DR Unit 100\nBRAMPTON, ON L6T4G8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.71214",
+                "StoreLongitude": "-79.72258"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 12
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 22
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.71677,
+            "Longitude": -79.7249,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 24939.243629163262,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10548",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "365-333-0303",
+            "StreetName": "11240 Creditview Rd Unit A1",
+            "PostalCode": "L7A4X3",
+            "City": "Brampton",
+            "AddressDescription": "11240 Creditview Rd Unit A1\nBrampton, ON L7A4X3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Sa 10:30am-2:00am",
+                "Delivery": "Su-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.698",
+                "StoreLongitude": "-79.8487"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 24,
+                    "Max": 34
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.69793,
+            "Longitude": -79.84875,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 25418.34026092692,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10335",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-233-5861",
+            "StreetName": "3828-A Bloor St W",
+            "PostalCode": "M9B1K8",
+            "City": "Etobicoke",
+            "AddressDescription": "3828-A Bloor St W\nEtobicoke, ON M9B1K8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.641637",
+                "StoreLongitude": "-79.537937"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.64164,
+            "Longitude": -79.53783,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 25653.458677860504,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10481",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-315-7878",
+            "StreetName": "3051 Walker's Line Unit 6",
+            "PostalCode": "L7M0W3",
+            "City": "Burlington",
+            "AddressDescription": "3051 Walker's Line Unit 6\nBurlington, ON L7M0W3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-We 11:00am-10:00pm\nTh 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-We 11:00am-10:00pm\nTh 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "Delivery": "Su-We 11:00am-10:00pm\nTh 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3936",
+                "StoreLongitude": "-79.8233"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.39359,
+            "Longitude": -79.82327,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 26623.61370258473,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10461",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-251-0999",
+            "StreetName": "2811 Lake Shore Blvd W",
+            "PostalCode": "M8V1H6",
+            "City": "Etobicoke",
+            "AddressDescription": "2811 Lake Shore Blvd W\nEtobicoke, ON M8V1H6\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6015",
+                "StoreLongitude": "-79.5009"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.6015,
+            "Longitude": -79.50087,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 26991.721471322082,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10293",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-458-9858",
+            "StreetName": "1650 Williams Pky",
+            "PostalCode": "L6S5R7",
+            "City": "Brampton",
+            "AddressDescription": "1650 Williams Pky\nBrampton, ON L6S5R7\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.745",
+                "StoreLongitude": "-79.72"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.74504,
+            "Longitude": -79.72003,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 29315.910753282144,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10552",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "365-333-0033",
+            "StreetName": "3068 Mayfield Rd Unit 2",
+            "PostalCode": "L6Z0E3",
+            "City": "Brampton",
+            "AddressDescription": "3068 Mayfield Rd Unit 2\nBrampton, ON L6Z0E3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "Delivery": "Mo-We 10:30am-1:00am\nTh-Su 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7354",
+                "StoreLongitude": "-79.824"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.73543,
+            "Longitude": -79.82417,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 29524.596818226964,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10401",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-237-1290",
+            "StreetName": "4204 Dundas St W",
+            "PostalCode": "M8X1Y6",
+            "City": "Toronto",
+            "AddressDescription": "4204 Dundas St W\nToronto, ON M8X1Y6\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6606",
+                "StoreLongitude": "-79.5113"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.66062,
+            "Longitude": -79.51129,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 29711.35989084758,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10466",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-740-9800",
+            "StreetName": "190 Queen's Plate Dr",
+            "PostalCode": "M9W6Y9",
+            "City": "Etobicoke",
+            "AddressDescription": "190 Queen's Plate Dr\nEtobicoke, ON M9W6Y9\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 11:30am-12:00am\nFr-Sa 11:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7198",
+                "StoreLongitude": "-79.5944"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.71976,
+            "Longitude": -79.59454,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 29783.812451238162,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10272",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-333-3230",
+            "StreetName": "495 Walkers Line",
+            "PostalCode": "L7N2E3",
+            "City": "Burlington",
+            "AddressDescription": "495 Walkers Line\nBurlington, ON L7N2E3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "Delivery": "Su-Th 11:00am-11:00pm\nFr-Sa 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3543",
+                "StoreLongitude": "-79.7702"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 8,
+                    "Max": 13
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.35434,
+            "Longitude": -79.77032,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 30993.52823670349,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10558",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "289-323-3323",
+            "StreetName": "10 Dewside Dr Unit 15",
+            "PostalCode": "L6R3Y3",
+            "City": "Brampton",
+            "AddressDescription": "10 Dewside Dr Unit 15\nBrampton, ON L6R3Y3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7569",
+                "StoreLongitude": "-79.7621"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 12
+                },
+                "Delivery": {
+                    "Min": 27,
+                    "Max": 32
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.7579,
+            "Longitude": -79.76311,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 31413.451175678438,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10268",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-336-1430",
+            "StreetName": "2025 Upper Middle Rd",
+            "PostalCode": "L7P4K1",
+            "City": "Burlington",
+            "AddressDescription": "2025 Upper Middle Rd\nBurlington, ON L7P4K1\nOpen Until 12:30AM Daily and 1:30AM Friday and Saturday",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:30am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:30am",
+                "Delivery": "Su-Th 10:30am-12:30am\nFr-Sa 10:30am-1:30am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "Open Until 12:30AM Daily and 1:30AM Friday and Saturday",
+            "LanguageLocationInfo": {
+                "en": "Open Until 12:30AM Daily and 1:30AM Friday and Saturday"
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "Open Until 12:30AM Daily and 1:30AM Friday and Saturday",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3583",
+                "StoreLongitude": "-79.8437"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.35826,
+            "Longitude": -79.84372,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 32492.991580270038,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10493",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-744-9800",
+            "StreetName": "1046 Albion Rd Unit A",
+            "PostalCode": "M9V1A7",
+            "City": "ETOBICOKE",
+            "AddressDescription": "1046 Albion Rd Unit A\nETOBICOKE, ON M9V1A7\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-12:00am\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 11:00am-12:00am\nFr-Sa 11:00am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7368",
+                "StoreLongitude": "-79.5642"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.73701,
+            "Longitude": -79.56412,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 33853.690952740806,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10457",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-649-4445",
+            "StreetName": "1200 Weston Rd",
+            "PostalCode": "M6M4P4",
+            "City": "Toronto",
+            "AddressDescription": "1200 Weston Rd\nToronto, ON M6M4P4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6876",
+                "StoreLongitude": "-79.4917"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.68762,
+            "Longitude": -79.49173,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 33886.12350047748,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10377",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-604-7255",
+            "StreetName": "344 High Park Ave",
+            "PostalCode": "M6P2S7",
+            "City": "Toronto",
+            "AddressDescription": "344 High Park Ave\nToronto, ON M6P2S7\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6654",
+                "StoreLongitude": "-79.4706"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.66537,
+            "Longitude": -79.47055,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 33957.88053666496,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10473",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "647-777-7775",
+            "StreetName": "1906 Jane St",
+            "PostalCode": "M9N2T8",
+            "City": "North York",
+            "AddressDescription": "1906 Jane St\nNorth York, ON M9N2T8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.71",
+                "StoreLongitude": "-79.506"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 20
+                },
+                "Delivery": {
+                    "Min": 15,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.71004,
+            "Longitude": -79.506,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 34897.62716948198,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10297",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "519-853-9000",
+            "StreetName": "315 Queen St E Unit 5",
+            "PostalCode": "L7J1R1",
+            "City": "Acton",
+            "AddressDescription": "315 Queen St E Unit 5\nActon, ON L7J1R1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+                "Delivery": "Su-Th 10:30am-11:00pm\nFr-Sa 10:30am-1:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6365",
+                "StoreLongitude": "-80.0299"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.63646,
+            "Longitude": -80.02992,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 35189.91253454301,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10519",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "289-323-3326",
+            "StreetName": "9995 McVean Dr Unit B4",
+            "PostalCode": "L6P4K8",
+            "City": "BRAMPTON",
+            "AddressDescription": "9995 McVean Dr Unit B4\nBRAMPTON, ON L6P4K8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": true,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7825",
+                "StoreLongitude": "-79.6996"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 12
+                },
+                "Delivery": {
+                    "Min": 29,
+                    "Max": 34
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.78252,
+            "Longitude": -79.69972,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 35262.6410101443,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10513",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-516-4004",
+            "StreetName": "1549 Dupont St",
+            "PostalCode": "M6P3S5",
+            "City": "Toronto",
+            "AddressDescription": "1549 Dupont St\nToronto, ON M6P3S5\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": true,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6652",
+                "StoreLongitude": "-79.4526"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.66524,
+            "Longitude": -79.45263,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 35689.11448798874,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10543",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-690-4848",
+            "StreetName": "473 Dundas St E 5",
+            "PostalCode": "L8B1W1",
+            "City": "Waterdown",
+            "AddressDescription": "473 Dundas St E 5\nWaterdown, ON L8B1W1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+                "Delivery": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3445",
+                "StoreLongitude": "-79.879"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 15,
+                    "Max": 25
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.34459,
+            "Longitude": -79.87956,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 36043.73140132099,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10526",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-538-2929",
+            "StreetName": "1313 King St W",
+            "PostalCode": "M6K1G9",
+            "City": "Toronto",
+            "AddressDescription": "1313 King St W\nToronto, ON M6K1G9\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6379",
+                "StoreLongitude": "-79.4316"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.63785,
+            "Longitude": -79.43164,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 36062.309706090775,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10479",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-645-2222",
+            "StreetName": "1671 Dundas St W",
+            "PostalCode": "M6K1V2",
+            "City": "Toronto",
+            "AddressDescription": "1671 Dundas St W\nToronto, ON M6K1V2\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6498",
+                "StoreLongitude": "-79.4371"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.6498,
+            "Longitude": -79.43714,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 36192.4183935614,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10586",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "289-948-0632",
+            "StreetName": "10950 GOREWAY DR Unit B7",
+            "PostalCode": "L6P4N4",
+            "City": "BRAMPTON",
+            "AddressDescription": "10950 GOREWAY DR Unit B7\nBRAMPTON, ON L6P4N4\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "Delivery": "Su-Th 10:30am-2:00am\nFr-Sa 10:30am-3:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": true,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": true,
+                "Delivery": true,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.79241",
+                "StoreLongitude": "-79.73791"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 12
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 22
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.79119,
+            "Longitude": -79.7388,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 36388.033636283624,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10412",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-632-7474",
+            "StreetName": "516 Plains Rd E",
+            "PostalCode": "L7T2E1",
+            "City": "Burlington",
+            "AddressDescription": "516 Plains Rd E\nBurlington, ON L7T2E1\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+                "Delivery": "Mo-We 10:30am-12:00am\nTh,Su 10:00am-12:00am\nFr-Sa 10:00am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.3191",
+                "StoreLongitude": "-79.8355"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 15,
+                    "Max": 25
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.31909,
+            "Longitude": -79.83555,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 37839.54025074644,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10410",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-654-3000",
+            "StreetName": "354 Oakwood Ave",
+            "PostalCode": "M6E2W2",
+            "City": "York",
+            "AddressDescription": "354 Oakwood Ave\nYork, ON M6E2W2\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+                "Delivery": "Su-Th 11:00am-1:00am\nFr-Sa 11:00am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6868",
+                "StoreLongitude": "-79.4388"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 40,
+                    "Max": 50
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.68676,
+            "Longitude": -79.43878,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 38682.72261634091,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10391",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-364-3939",
+            "StreetName": "51 Niagara St",
+            "PostalCode": "M5V1C3",
+            "City": "Toronto",
+            "AddressDescription": "51 Niagara St\nToronto, ON M5V1C3\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6417",
+                "StoreLongitude": "-79.402"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.64168,
+            "Longitude": -79.40203,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 39358.36722754187,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10416",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "905-856-4244",
+            "StreetName": "4585 Hwy 7 West",
+            "PostalCode": "L4L9T8",
+            "City": "Woodbridge",
+            "AddressDescription": "4585 Hwy 7 West\nWoodbridge, ON L4L9T8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+                "Delivery": "Mo-Th 10:30am-12:00am\nFr 10:30am-2:00am\nSa 11:00am-2:00am\nSu 11:00am-12:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                },
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": "",
+                    "CarsideParkingInstruction": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.7836",
+                "StoreLongitude": "-79.5755"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 17,
+                    "Max": 27
+                }
+            },
+            "AllowDuc": true,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.78331,
+            "Longitude": -79.57503,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 39401.59238666714,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10478",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-640-7777",
+            "StreetName": "404 College St",
+            "PostalCode": "M5T1S8",
+            "City": "Toronto",
+            "AddressDescription": "404 College St\nToronto, ON M5T1S8\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.657",
+                "StoreLongitude": "-79.4061"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.65701,
+            "Longitude": -79.40618,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 39795.194658452165,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10399",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-533-2929",
+            "StreetName": "936 Bathurst St",
+            "PostalCode": "M5R3G5",
+            "City": "Toronto",
+            "AddressDescription": "936 Bathurst St\nToronto, ON M5R3G5\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6691",
+                "StoreLongitude": "-79.413"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 30,
+                    "Max": 40
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.66906,
+            "Longitude": -79.41302,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 39878.363132633,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10280",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-785-5400",
+            "StreetName": "377 Marlee Ave",
+            "PostalCode": "M6B3H9",
+            "City": "Toronto",
+            "AddressDescription": "377 Marlee Ave\nToronto, ON M6B3H9\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": false,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.707",
+                "StoreLongitude": "-79.4429"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 9,
+                    "Max": 14
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.70715,
+            "Longitude": -79.44276,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 40058.11341414314,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        },
+        {
+            "StoreID": "10544",
+            "MarketCode": null,
+            "StoreName": "",
+            "IsDeliveryStore": false,
+            "Phone": "416-504-3030",
+            "StreetName": "410 Queen St W",
+            "PostalCode": "M5V2A7",
+            "City": "Toronto",
+            "AddressDescription": "410 Queen St W\nToronto, ON M5V2A7\n",
+            "HolidayDescription": null,
+            "HoursDescription": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+            "ServiceHoursDescription": {
+                "Carryout": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "Delivery": "Su-Th 10:30am-1:00am\nFr-Sa 10:30am-2:00am",
+                "DeliverToMe": "Su-Sa 10:30am-9:00pm"
+            },
+            "IsOnlineCapable": true,
+            "IsOnlineNow": true,
+            "IsNEONow": false,
+            "IsSpanish": true,
+            "SubstitutionStore": null,
+            "LocationInfo": "",
+            "LanguageLocationInfo": {
+                "en": ""
+            },
+            "AllowDeliveryOrders": true,
+            "AllowCarryoutOrders": true,
+            "AllowDineInOrders": false,
+            "AllowDtmOrders": true,
+            "IsOpen": false,
+            "EcomActive": true,
+            "ServiceIsOpen": {
+                "Carryout": false,
+                "Delivery": false,
+                "DeliverToMe": false
+            },
+            "LanguageTranslations": {
+                "en": {
+                    "LocationInfo": "",
+                    "StoreName": ""
+                }
+            },
+            "StoreCoordinates": {
+                "StoreLatitude": "43.6487",
+                "StoreLongitude": "-79.3977"
+            },
+            "ServiceMethodEstimatedWaitMinutes": {
+                "Carryout": {
+                    "Min": 10,
+                    "Max": 15
+                },
+                "Delivery": {
+                    "Min": 20,
+                    "Max": 30
+                }
+            },
+            "AllowDuc": false,
+            "AllowHotspotLiteOrders": false,
+            "Latitude": 43.64875,
+            "Longitude": -79.39772,
+            "Region": "ON",
+            "Substituted": false,
+            "StoreVariance": null,
+            "OnlineStatusCode": "Ok",
+            "Distance": 40188.00914920003,
+            "NoCarryoutOrdersUntil": "2000-01-01 00:00:00",
+            "NoDeliveryOrdersUntil": "2000-01-01 00:00:00",
+            "NoHotspotLiteOrdersUntil": "2100-01-01 00:00:00",
+            "CarryoutWaitTimeReason": null,
+            "DeliveryWaitTimeReason": null
+        }
+    ],
+    "DeliverToMeSpots": null,
+    "StoreName": null,
+    "Status": 0,
+    "StatusItems": null,
+    "Engine": "GSLI",
+    "StoreCoordinates": null,
+    "Hotspots": null,
+    "PickUpLocation": null
+}
