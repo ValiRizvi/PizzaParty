@@ -1,12 +1,11 @@
 import requests
 import json
+from store_locator import store_number
 
 app_url = 'http://127.0.0.1:5000/scrape'
 
-store_number = 10285
-
 api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
-
+print(api_url)
 
 # send request to flask scrape endpoint with the url to scrape as the json payload
 payload = {'url': api_url}

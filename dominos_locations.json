@@ -604,8 +604,8 @@
                     "Max": 14
                 },
                 "Delivery": {
-                    "Min": 25,
-                    "Max": 35
+                    "Min": 17,
+                    "Max": 27
                 }
             },
             "AllowDuc": false,
@@ -1109,8 +1109,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -1926,8 +1926,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -1999,8 +1999,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -2295,8 +2295,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -2667,8 +2667,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -2693,8 +2693,8 @@
                     "Max": 12
                 },
                 "Delivery": {
-                    "Min": 27,
-                    "Max": 32
+                    "Min": 26,
+                    "Max": 31
                 }
             },
             "AllowDuc": true,
@@ -3177,11 +3177,11 @@
             "AllowCarryoutOrders": true,
             "AllowDineInOrders": true,
             "AllowDtmOrders": true,
-            "IsOpen": true,
+            "IsOpen": false,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
@@ -3206,8 +3206,8 @@
                     "Max": 12
                 },
                 "Delivery": {
-                    "Min": 29,
-                    "Max": 34
+                    "Min": 30,
+                    "Max": 35
                 }
             },
             "AllowDuc": true,
@@ -3546,8 +3546,8 @@
             "IsOpen": true,
             "EcomActive": true,
             "ServiceIsOpen": {
-                "Carryout": true,
-                "Delivery": true,
+                "Carryout": false,
+                "Delivery": false,
                 "DeliverToMe": false
             },
             "LanguageTranslations": {
