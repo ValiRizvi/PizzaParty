@@ -27,7 +27,7 @@ def submit():
     return f"number: {number} size: {size}"
 
 
-@app.route('/scrape', methods=['POST'])
+@app.route('/scrape', methods=['GET'])
 
 def scrape():
     url = request.json.get('url')
