@@ -15,16 +15,18 @@ def home():
 def submit():
     number = request.args.get('number')
     size = request.args.get('size')
+    postalCode = request.args.get('postalCode')
 
-    if not number or  not size:
+    if not number or  not size or not postalCode:
         error = 'Please select both a number and size for the pizza(s).'
         return redirect(url_for('home', error=error))
 
     with open('user_input.txt', 'w') as file:
         file.write(number + '\n')
-        file.write(size)
+        file.write(size + '\n')
+        file.write(postalCode)
 
-    return f"number: {number} size: {size}"
+    return f'number: {number}, size: {size}, postal code: {postalCode}'
 
 
 @app.route('/scrape', methods=['GET'])
