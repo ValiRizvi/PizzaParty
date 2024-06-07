@@ -33,7 +33,7 @@ def scrapeDominos(store_number):
         readable_json = json.dumps(coupons, indent=4)
 
         # write readable json to txt file
-        with open('dominos_coupons.json', 'w') as file:
+        with open('json_files/dominos_coupons.json', 'w') as file:
             file.write(readable_json)
         
     else:
