@@ -1,5 +1,7 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
+from store_locator import getStoreID
+from scrape_dominos import scrapeDominos
 
 app = Flask(__name__)
 
@@ -17,7 +19,11 @@ def submit():
     size = request.args.get('size')
     postalCode = request.args.get('postalCode')
 
-    if not number or  not size or not postalCode:
+    store_number = getStoreID(postalCode)
+    print(store_number)
+    scrapeDominos(store_number)
+
+    if not number or not size:
         error = 'Please select both a number and size for the pizza(s).'
         return redirect(url_for('home', error=error))
 
@@ -29,7 +35,7 @@ def submit():
     return f'number: {number}, size: {size}, postal code: {postalCode}'
 
 
-@app.route('/scrape', methods=['GET'])
+@app.route('/scrape', methods=['POST'])
 
 def scrape():
     url = request.json.get('url')
