@@ -30,9 +30,8 @@ def submit():
     with open('user_input.txt', 'w') as file:
         file.write(number + '\n')
         file.write(size + '\n')
-        file.write(postalCode)
 
-    return f'number: {number}, size: {size}, postal code: {postalCode}'
+    return f'number: {number}, size: {size}'
 
 
 @app.route('/scrape', methods=['POST'])
