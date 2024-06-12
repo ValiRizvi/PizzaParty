@@ -1,4 +1,5 @@
-import os, openai, json
+import os, json, openai
+from openai import OpenAI
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
@@ -25,5 +26,23 @@ def filter_coupons_by_size(coupons, size):
 coupons_str = json.dumps(filter_coupons_by_size(coupons, size))
 
 prompt = f'tell me what the single best value coupon is for {number} {size} pizza(s) \n {coupons_str}'
-print(prompt)
+
+
+client = OpenAI()
+
+completion = client.chat.completions.create(
+    model="gpt-3.5-turbo",
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": prompt}
+    ],
+    max_tokens=30,
+    n=1,
+    stop=None,
+    temperature=0.5
+)
+
+best_value_coupon = completion.choices[0].message
+
+print(best_value_coupon)
 
