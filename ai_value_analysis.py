@@ -17,7 +17,7 @@ def filter_coupons_by_size(coupons, size):
     filtered = []
 
     for coupon in coupons:
-        if size in coupon['description']:
+        if size in coupon['description'] or '%' in coupon['description']:
             filtered.append(coupon)
     
     return filtered
@@ -25,7 +25,7 @@ def filter_coupons_by_size(coupons, size):
 # convert to json formatted string to pass to prompt
 coupons_str = json.dumps(filter_coupons_by_size(coupons, size))
 
-prompt = f'tell me what the single best value coupon is for {number} {size} pizza(s) \n {coupons_str}'
+prompt = f"Best code for 2 medium pizza(s): {coupons_str}. If carryout, next best non-carryout code on next line. Codes only, no text."
 
 
 client = OpenAI()
@@ -36,13 +36,13 @@ completion = client.chat.completions.create(
         {"role": "system", "content": "You are a helpful assistant."},
         {"role": "user", "content": prompt}
     ],
-    max_tokens=30,
+    max_tokens=150,
     n=1,
     stop=None,
     temperature=0.5
 )
 
-best_value_coupon = completion.choices[0].message
+best_value_coupon = completion.choices[0].message.content
 
 print(best_value_coupon)
 
