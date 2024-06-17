@@ -44,5 +44,6 @@ completion = client.chat.completions.create(
 
 best_value_coupon = completion.choices[0].message.content
 
-print(best_value_coupon)
+coupons = best_value_coupon.split('\n')
 
+print(coupons)
