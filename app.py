@@ -2,6 +2,7 @@ from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
 from store_locator import getStoreID
 from scrape_dominos import scrapeDominos
+from ai_value_analysis import chooseCoupon
 
 app = Flask(__name__)
 
@@ -16,6 +17,7 @@ def home():
 
 def submit():
     number = request.args.get('number')
+    print(type(number))
     size = request.args.get('size')
     postalCode = request.args.get('postalCode')
 
@@ -31,7 +33,9 @@ def submit():
         file.write(number + '\n')
         file.write(size + '\n')
 
-    return f'number: {number}, size: {size}'
+    best_coupons = chooseCoupon(number, size)
+
+    return f'number: {number}, size: {size} \n Best Coupons: {best_coupons}'
 
 
 @app.route('/scrape', methods=['POST'])
