@@ -1,4 +1,4 @@
-import os, json, openai, re
+import os, json, openai
 from openai import OpenAI
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
@@ -22,15 +22,15 @@ def chooseCoupon(number, size):
     # convert to json formatted string to pass to prompt
     coupons_str = json.dumps(filtered)
 
-    prompt = f"Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize cheapest price. \n{coupons_str}"
+    prompt = f'Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize cheapest price. \n{coupons_str}'
 
     client = OpenAI()
 
     completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model='gpt-3.5-turbo',
         messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
+            {'role': 'system', 'content': 'You are a helpful assistant.'},
+            {'role': 'user', 'content': prompt}
         ],
         max_tokens=5,
         n=1,
