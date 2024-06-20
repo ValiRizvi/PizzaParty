@@ -14,7 +14,8 @@ def chooseCoupon(number, size):
     for coupon in coupons:
         if f'{number} {size}' in coupon['description'] or '%' in coupon['description'] or 'Any Crust' in coupon['description']:
             filtered.append(coupon)
-            
+        
+        # dominos 2+ medium $8.99 deal doesnt state the size in the description so this is just to check if that is available
         if int(number) >= 2 and size == 'Medium':
             if 'Any 2' in coupon['description']:
                 filtered.append(coupon)
@@ -24,6 +25,7 @@ def chooseCoupon(number, size):
 
     prompt = f'Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize cheapest price. \n{coupons_str}'
 
+    # make api request
     client = OpenAI()
 
     completion = client.chat.completions.create(
@@ -38,6 +40,7 @@ def chooseCoupon(number, size):
         temperature=0
     )
 
+    # extract list of codes
     best_value_coupon = completion.choices[0].message.content
 
     return best_value_coupon.split('\n')
