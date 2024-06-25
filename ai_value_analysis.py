@@ -23,7 +23,7 @@ def chooseCoupon(number, size):
     # convert to json formatted string to pass to prompt
     coupons_str = json.dumps(filtered)
 
-    prompt = f'Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize cheapest price. \n{coupons_str}'
+    prompt = f'Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize lowest price. Tell me very briefly why you picked this coupon. \n{coupons_str}'
 
     # make api request
     client = OpenAI()
@@ -34,7 +34,7 @@ def chooseCoupon(number, size):
             {'role': 'system', 'content': 'You are a helpful assistant.'},
             {'role': 'user', 'content': prompt}
         ],
-        max_tokens=5,
+        max_tokens=100,
         n=1,
         stop=None,
         temperature=0
