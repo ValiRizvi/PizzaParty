@@ -5,7 +5,7 @@ api_key = os.environ.get('GOOGLE_MAPS_API_KEY')
 gmaps = googlemaps.Client(key=api_key)
 
 
-def getStoreID(postal_code):
+def getDominosStoreID(postal_code):
 
     # get lat and long of given postal code
     geocode_response = gmaps.geocode(postal_code)

@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
-from store_locator import getStoreID
+from dominos_store_locator import getDominosStoreID
 from scrape_dominos import scrapeDominos
 from ai_value_analysis import chooseCoupon
 
@@ -21,7 +21,7 @@ def submit():
     size = request.args.get('size')
     postalCode = request.args.get('postalCode')
 
-    store_number = getStoreID(postalCode)
+    store_number = getDominosStoreID(postalCode)
     print(store_number)
     scrapeDominos(store_number)
 

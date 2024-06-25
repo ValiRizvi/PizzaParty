@@ -1,5 +1,4 @@
-import requests
-import json
+import requests, json
 
 app_url = 'http://127.0.0.1:5000/scrape'
 
