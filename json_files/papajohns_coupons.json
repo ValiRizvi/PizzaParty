@@ -1,0 +1,74 @@
+[
+    {
+        "description": "Sizzlin' beef, diced tomatoes, dill pickles, gooey cheese and burger sauce, all on top of our fresh, never frozen original dough. Grab it while it's here for the summer.",
+        "price": "18.99"
+    },
+    {
+        "description": "The possibilities are endless when you get you some Papa Pairings. Pair a Medium 1-topping Pizza with Boneless or Traditional Wings, Papadias, Breadsticks, Cheesesticks, Garlic Knots or Desserts for just $9.99 each.",
+        "price": "9.99"
+    },
+    {
+        "description": "One large 3 Topping &16 wings or 15 Boneless Wings",
+        "price": "32.99"
+    },
+    {
+        "description": "Get you that crispy, curly, cuppy pepperoni on top of an XL New York Style crust pizza with creamy tomato sauce and a three-cheese blend. This ain't around forever, so walk fast like you're in NYC and order one now.",
+        "price": "21.99"
+    },
+    {
+        "description": "Two Large 3-Topping Pizzas an Order of Garlic Knots and 2 Litre Pepsi Product",
+        "price": "37.99"
+    },
+    {
+        "description": "Extra large 2-toppings pizza and 10-inch cheese stick",
+        "price": "26.99"
+    },
+    {
+        "description": "Epic Stuffed Crust 2-Topping Pizza",
+        "price": "22.99"
+    },
+    {
+        "description": "Two topping gluten-free pizza ",
+        "price": "12.99"
+    },
+    {
+        "description": "Medium Four Topping Pizza",
+        "price": "12.99"
+    },
+    {
+        "description": "Indulge in twice the taste. Get a medium 1-topping pizza when you purchase a large specialty pizza at regular menu price.",
+        "price": "6.00"
+    },
+    {
+        "description": "One Large 3-Topping Pizza, 16 wings or 15 Boneless Wings and 2 Litre Pepsi Product",
+        "price": "32.99"
+    },
+    {
+        "description": "Two Medium Two Topping Pizzas",
+        "price": "21.99"
+    },
+    {
+        "description": "Two Large Three Topping Pizzas & Garlic Knots",
+        "price": "31.99"
+    },
+    {
+        "description": "Any Two X-Large Specialty Pizzas For $44.99",
+        "price": "44.99"
+    },
+    {
+        "description": "Large 4-Topping Pizza Thin or Original Crust Only",
+        "price": "15.99"
+    },
+    {
+        "description": "Three Medium Three Toppings",
+        "price": "32.99"
+    },
+    {
+        "description": "Sizzlin' beef, dill pickles, diced tomatoes, gooey cheese and burger sauce folded in our fresh, never frozen original dough for a handheld flatbread-style sandwich. Grab it while it's here for the summer.",
+        "price": "9.99"
+    },
+    {
+        "description": "Sizzlin' beef and bacon, dill pickles, burger sauce, and gooey cheese rolled up in eight pillowy pockets of fresh, never frozen original dough. Served with burger sauce for dipping. Grab 'em while they're here for the summer.",
+        "price": "8.99"
+    }
+]

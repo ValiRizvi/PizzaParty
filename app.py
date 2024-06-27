@@ -3,6 +3,7 @@ import requests
 from dominos_store_locator import getDominosStoreID
 from scrape_dominos import scrapeDominos
 from ai_value_analysis import chooseCoupon
+from papa_johns import scrapePapaJohns
 
 app = Flask(__name__)
 
@@ -22,8 +23,8 @@ def submit():
     postalCode = request.args.get('postalCode')
 
     store_number = getDominosStoreID(postalCode)
-    print(store_number)
     scrapeDominos(store_number)
+    scrapePapaJohns(postalCode)
 
     if not number or not size:
         error = 'Please select both a number and size for the pizza(s).'
