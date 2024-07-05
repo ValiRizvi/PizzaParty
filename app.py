@@ -1,7 +1,8 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
-from dominos_store_locator import getDominosStoreID
+from geo_store_locator import getDominosStoreID, getPizzaPizzaStoreID
 from scrape_dominos import scrapeDominos
+from pizzapizza import scrapePizzaPizza
 from ai_value_analysis import chooseCoupon
 from papa_johns import scrapePapaJohns
 
@@ -22,8 +23,8 @@ def submit():
     size = request.args.get('size')
     postalCode = request.args.get('postalCode')
 
-    store_number = getDominosStoreID(postalCode)
-    scrapeDominos(store_number)
+    scrapeDominos(getDominosStoreID(postalCode))
+    scrapePizzaPizza(getPizzaPizzaStoreID(postalCode))
     scrapePapaJohns(postalCode)
 
     if not number or not size:
