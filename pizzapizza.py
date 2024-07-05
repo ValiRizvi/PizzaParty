@@ -1,4 +1,4 @@
-import requests, json 
+import os, requests, json 
 
 # test url *** need to update and pass correct store location
 url = 'https://www.pizzapizza.ca/ajax/catalog/api/v1/product_list/150/pickup?category_id=11035'
@@ -6,7 +6,7 @@ url = 'https://www.pizzapizza.ca/ajax/catalog/api/v1/product_list/150/pickup?cat
 
 headers = {
     "x-request-id": "a58653bf-0e8e-419b-b2f9-090692a51de5",
-    "session-token": "29e0c9bd-5127-4f71-bfa0-2c7b8395000f"
+    "session-token": os.getenv('PIZZAPIZZA_SESSION_TOKEN')
 }
 
 response = requests.get(url, headers=headers)
