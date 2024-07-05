@@ -12,8 +12,6 @@ def scrapePapaJohns(postal_code):
     url = f'https://www.papajohns.com/api/v6/stores/{storeId}/deals'
     
     response = requests.get(url)
-    
-    data = response.json()
 
     json_response = response.json()
     data = json_response.get('data', {})
@@ -34,5 +32,4 @@ def scrapePapaJohns(postal_code):
 
     with open('json_files/papajohns_coupons.json', 'w') as file:
         file.write(readable_json)
-
 
