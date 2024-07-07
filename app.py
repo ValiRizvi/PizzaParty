@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
 from geo_store_locator import getDominosStoreID, getPizzaPizzaStoreID
-from scrape_dominos import scrapeDominos
+from dominos import scrapeDominos
 from pizzapizza import scrapePizzaPizza
 from ai_value_analysis import chooseCoupon
 from papa_johns import scrapePapaJohns
