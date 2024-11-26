@@ -1,0 +1,70 @@
+[
+    {
+        "description": "Extra cheese and extra pepperoni on an extra large New York style pizza cut into 8 oversized, foldable slices. Served with our Special Garlic Sauce and a pepperoncini.",
+        "price": "19.99"
+    },
+    {
+        "description": "The possibilities are endless when you get you some Papa Pairings. Pair a Medium 1-topping Pizza with Boneless or Traditional Wings, Papadias, Breadsticks, Cheesesticks, Garlic Knots or Desserts for just $9.99 each.",
+        "price": "9.99"
+    },
+    {
+        "description": "One large 3 Topping &16 wings or 15 Boneless Wings",
+        "price": "32.99"
+    },
+    {
+        "description": "Medium 4-Topping Pizza",
+        "price": "12.99"
+    },
+    {
+        "description": "Extra Large 4-Topping Pizza",
+        "price": "18.99"
+    },
+    {
+        "description": "Large 2-Topping Pizza Thin Or Regular Crust Only",
+        "price": "12.99"
+    },
+    {
+        "description": "Two Large 3-Topping Pizzas an Order of Garlic Knots and 2 Litre Pepsi Product",
+        "price": "37.99"
+    },
+    {
+        "description": "Two Large 3-Topping Pizzas & Garlic Knots",
+        "price": "31.99"
+    },
+    {
+        "description": "Extra Large 2-Toppings Pizza and 10-inch cheesestick",
+        "price": "26.99"
+    },
+    {
+        "description": "Two topping gluten-free pizza ",
+        "price": "12.99"
+    },
+    {
+        "description": "Epic Stuffed Crust 2-Topping Pizza",
+        "price": "22.99"
+    },
+    {
+        "description": "Any Two Large Specialty pizzas for only $36.99",
+        "price": "36.99"
+    },
+    {
+        "description": "Two Medium Two Topping Pizzas",
+        "price": "21.99"
+    },
+    {
+        "description": "One Large 3-Topping Pizza, 16 wings or 15 Boneless Wings and 2 Litre Pepsi Product",
+        "price": "32.99"
+    },
+    {
+        "description": "Two Extra-Large Specialty Pizzas",
+        "price": "45.99"
+    },
+    {
+        "description": "Large 4-Topping Pizza Thin or Original Crust Only",
+        "price": "15.99"
+    },
+    {
+        "description": "Three Medium Three Toppings",
+        "price": "32.99"
+    }
+]

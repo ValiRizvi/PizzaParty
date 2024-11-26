@@ -1,0 +1,102 @@
+[
+    {
+        "code": "2006",
+        "description": "1 Small 1 Topping Pizza",
+        "price": "8.99"
+    },
+    {
+        "code": "2009",
+        "description": "Small 2-Topping Gluten Free Pizza",
+        "price": "13.99"
+    },
+    {
+        "code": "3005",
+        "description": "1 Medium 1 Topping Pizza",
+        "price": "11.99"
+    },
+    {
+        "code": "3025",
+        "description": "1 Medium Feast Pizza",
+        "price": "18.99"
+    },
+    {
+        "code": "3203",
+        "description": "1 Medium 2 Topping Pan Pizza",
+        "price": "14.99"
+    },
+    {
+        "code": "3275",
+        "description": "2 Medium Pizzas With 6-Toppings Combined & 1 Cheesy Bread",
+        "price": "25.99"
+    },
+    {
+        "code": "3415",
+        "description": "3 Medium 3 Topping Pizzas",
+        "price": "27.99"
+    },
+    {
+        "code": "3724",
+        "description": "2 Medium 1-Topping Pizzas, 16pc Parm Bites & 16pc Cinna Bites",
+        "price": "44.46"
+    },
+    {
+        "code": "4191",
+        "description": "1 Large Feast Pizza",
+        "price": "20.99"
+    },
+    {
+        "code": "4201",
+        "description": "1 Large 4 Topping Pizza",
+        "price": "15.99"
+    },
+    {
+        "code": "4218",
+        "description": "Large 4-Topping Pizza (Carryout Only)",
+        "price": "15.99"
+    },
+    {
+        "code": "4276",
+        "description": "2 Large 3 Topping pizzas and Domino's Pizza Cheesy Bread",
+        "price": "34.99"
+    },
+    {
+        "code": "5021",
+        "description": "1 X-Large 4 Topping Pizza",
+        "price": "22.99"
+    },
+    {
+        "code": "8329",
+        "description": "Choose any 2 or more: Cinna Stix\u00ae, Breadsticks, 2 Chocolate Lava Crunch Cakes, 1 6pc Marbled Cookie Brownie, or 16pc Parmesan Bread Bites. Price is per item. (Cheesy Bread may be included at an additional charge)",
+        "price": "5.99"
+    },
+    {
+        "code": "8367",
+        "description": "Carryout Only - Any Crust - Small, Medium or Large 2-Topping Pizzas",
+        "price": "12.99"
+    },
+    {
+        "code": "8654",
+        "description": "Get a Stuffed Cheesy Bread with the Purchase of Any Medium or Large pizza at menu price - see cart for price",
+        "price": ""
+    },
+    {
+        "code": "8665",
+        "description": "Free 16pc Parm Bites with the purchase of Any Medium or Large pizza at menu price",
+        "price": ""
+    },
+    {
+        "code": "8722",
+        "description": "50% Off All Pizzas - Monday, Tuesday and Wednesday Only!  Online Only! ",
+        "price": ""
+    },
+    {
+        "code": "893WS",
+        "description": "Get Any 2 or More: Pizza, Stuffed Cheesy Bread, Pasta, Chicken, Desserts and More (extra charge may apply for chicken products). Price is per item.",
+        "price": "8.99"
+    },
+    {
+        "code": "9730",
+        "description": "Unlimited Large 2 Topping Pizzas. (Price is per pizza. 2 Pizza Minimum.)",
+        "price": "12.99"
+    }
+]
