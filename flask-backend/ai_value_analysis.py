@@ -10,7 +10,6 @@ def chooseCoupon(number, size):
         
     # convert to json formatted string to pass to prompt
     coupons_str = json.dumps(filtered)
-    print(coupons_str)
 
     prompt = f'Best code for {number} {size} pizza(s). If carryout, next best non-carryout code on next line. Codes only, no text. Prioritize lowest price. \n{coupons_str}'
 
