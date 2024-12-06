@@ -28,7 +28,11 @@ def getDominosStoreID(postal_code):
 
     # store and return closest Dominos store ID
     stores = response.json().get('Stores', {})
-    store_number = stores[0].get('StoreID', '')
+
+    try: 
+        store_number = stores[0].get('StoreID', '')
+    except:
+        return "Error: No Domino's locations in proximity."
 
     return store_number
 
@@ -47,7 +51,11 @@ def getPizzaPizzaStoreID(postal_code):
     response = requests.get(url, headers=headers)
 
     stores = response.json().get('stores', {})
-    store_id = stores[0].get('store_id', '')
+
+    try:
+        store_id = stores[0].get('store_id', '')
+    except: 
+        return "Error: No Pizza Pizza locations in proximity."
 
     return store_id
 

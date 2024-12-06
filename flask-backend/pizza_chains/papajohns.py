@@ -7,29 +7,36 @@ def scrapePapaJohns(postal_code):
     response = requests.get(url)
 
     stores = response.json().get('stores', {})
-    storeId = stores[0].get('storeId')
 
-    url = f'https://www.papajohns.com/api/v6/stores/{storeId}/deals'
-    
-    response = requests.get(url)
+    try: 
+        storeId = stores[0].get('storeId')
 
-    json_response = response.json()
-    data = json_response.get('data', {})
-    deals = data.get('deals', [])
+        url = f'https://www.papajohns.com/api/v6/stores/{storeId}/deals'
+        
+        response = requests.get(url)
 
-    # make list of dictionaries
-    coupons = []
+        json_response = response.json()
+        data = json_response.get('data', {})
+        deals = data.get('deals', [])
 
-    for deal in deals:
-        coupon = {}
-        coupon['description'] = deal.get('description', '')
-        coupon['price'] = deal.get('displayPrice', '')
+        # make list of dictionaries
+        coupons = []
 
-        coupons.append(coupon)
+        for deal in deals:
+            coupon = {}
+            coupon['description'] = deal.get('description', '')
+            coupon['price'] = deal.get('displayPrice', '')
 
-    # convert python dictionary to json for readability
-    readable_json = json.dumps(coupons, indent=4)
+            coupons.append(coupon)
 
-    with open('flask-backend/pizza_chains/json_files/papajohns_coupons.json', 'w') as file:
-        file.write(readable_json)
+        # convert python dictionary to json for readability
+        readable_json = json.dumps(coupons, indent=4)
+
+        with open('flask-backend/pizza_chains/json_files/papajohns_coupons.json', 'w') as file:
+            file.write(readable_json)
+
+    # if api return empty array (no stores in proximity)        
+    except:
+        return "Error: No Papa John's locations in proximity."
+
 

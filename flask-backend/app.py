@@ -1,12 +1,7 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
 
-from geo_store_locator import getDominosStoreID, getPizzaPizzaStoreID
-
-from pizza_chains.dominos import scrapeDominos
-from pizza_chains.pizzapizza import scrapePizzaPizza
-from pizza_chains.papajohns import scrapePapaJohns
-
+from find_stores import findStores
 from ai_value_analysis import chooseCoupon
 
 
@@ -19,18 +14,18 @@ def home():
     return render_template('index.html', error=error)
 
 
+
 @app.route('/submit', methods=['GET'])
 
 def submit():
     number = request.args.get('number')
-    print(type(number))
     size = request.args.get('size')
     postalCode = request.args.get('postalCode')
 
-    scrapeDominos(getDominosStoreID(postalCode))
-    scrapePizzaPizza(getPizzaPizzaStoreID(postalCode))
-    scrapePapaJohns(postalCode)
-
+    found = findStores(postalCode)
+    if not found:
+        return 'I cannot help you without any stores nearby. Sorry b0ss'
+    
     if not number or not size:
         error = 'Please select both a number and size for the pizza(s).'
         return redirect(url_for('home', error=error))
@@ -42,6 +37,7 @@ def submit():
     best_coupons = chooseCoupon(number, size)
 
     return f'number: {number}, size: {size} \n Best Coupons: {best_coupons}'
+
 
 
 @app.route('/scrape', methods=['POST'])
