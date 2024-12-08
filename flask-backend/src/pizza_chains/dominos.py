@@ -1,14 +1,9 @@
 import requests, json
 
-scrape_endpoint = 'http://127.0.0.1:5000/scrape'
-
 def scrapeDominos(store_number: str):
     api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
 
-    # send request to flask scrape endpoint with the url to scrape as the json payload
-    payload = {'url': api_url}
-    response = requests.post(scrape_endpoint, json=payload)
-
+    response = requests.get(api_url)
 
     if response.status_code == 200:
         print(response.status_code)
