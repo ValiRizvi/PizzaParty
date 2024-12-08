@@ -1,4 +1,6 @@
 import requests, json
+from firestore_client import addCouponToDB
+
 
 def scrapeDominos(store_number: str):
     api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
@@ -23,12 +25,7 @@ def scrapeDominos(store_number: str):
             }
             coupons.append(coupon)
 
-        # convert python dictionary to json for readability
-        readable_json = json.dumps(coupons, indent=4)
-
-        # write readable json to txt file
-        with open('flask-backend/src/pizza_chains/json_files/dominos_coupons.json', 'w') as file:
-            file.write(readable_json)
+        addCouponToDB('Dominos', coupons)
         
     else:
         print(f'Failed to scrape dominos coupons: {response.status_code}')

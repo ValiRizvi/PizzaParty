@@ -1,4 +1,5 @@
 import requests, json
+from firestore_client import addCouponToDB
 
 def scrapePapaJohns(postal_code: str):
 
@@ -31,11 +32,7 @@ def scrapePapaJohns(postal_code: str):
 
                 coupons.append(coupon)
 
-            # convert python dictionary to json for readability
-            readable_json = json.dumps(coupons, indent=4)
-
-            with open('flask-backend/src/pizza_chains/json_files/papajohns_coupons.json', 'w') as file:
-                file.write(readable_json)
+            addCouponToDB('PapaJohns', coupons)
 
         # if api return empty array (no stores in proximity)        
         except:

@@ -6,13 +6,16 @@ firebase_credentials = os.getenv("FIREBASE_ADMIN_CREDENTIALS")
 db = firestore.Client.from_service_account_json(firebase_credentials)
 
 
-def testFirestore():
-    collections = db.collections()
-    collectionNames = [collection.id for collection in collections]
+def addCouponToDB(chain_name: str, coupons: dict):
 
-    if collectionNames:
-        print(f"collections: {collectionNames}")
-    else:
-        print("no collections stored.")
+    try:
+        collection_ref = db.collection(chain_name)
+        
+        for coupon in coupons:
+            collection_ref.add(coupon)
+            print(f'document added to {collection_ref}')
 
-testFirestore()
+    except Exception as e:
+        print(f'error adding document to {collection_ref}: {e}')
+
+    
