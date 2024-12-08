@@ -31,7 +31,7 @@ def scrapeDominos(store_number: str):
             file.write(readable_json)
         
     else:
-        print(f'Failed to retrieve data: {response.status_code}')
+        print(f'Failed to scrape dominos coupons: {response.status_code}')
         print(response.text)
 
 
@@ -43,14 +43,19 @@ def getDominosStoreID(coordinates: dict):
 
     response = requests.get(url, headers={'DPZ-Market': 'CANADA'})
 
-    # store and return closest Dominos store ID
-    stores = response.json().get('Stores', {})
+    if response.status_code == 200:
+        # store and return closest Dominos store ID
+        stores = response.json().get('Stores', {})
 
-    try: 
-        store_number = stores[0].get('StoreID', '')
-    except:
-        # if there are no store id's in the json (no stores in relative proximity)
-        return "Error: No Domino's locations in proximity."
+        try: 
+            store_number = stores[0].get('StoreID', '')
+        except:
+            # if there are no store id's in the json (no stores in relative proximity)
+            return "Error: No Domino's locations in proximity."
 
-    # type casting to int to match logic in find_stores.py
-    return int(store_number)
+        # type casting to int to match logic in find_stores.py
+        return int(store_number)
+    
+    else:
+        print(f'Failed to retrieve dominos store id: {response.status_code}')
+        print(response.text)

@@ -10,24 +10,28 @@ def scrapePizzaPizza(store_id: str):
 
     response = requests.get(url, headers=headers)
 
-    # grab list of coupons from json response
-    data = response.json().get('products', [])
+    if response.status_code == 200:
+        # grab list of coupons from json response
+        data = response.json().get('products', [])
 
-    coupons = []
+        coupons = []
 
-    # loop through list of dictionaries (each dictionary is a coupon/product)
-    for product in data: 
-        coupon = {}
-        coupon['description'] = product.get('description', '')
-        coupon['price'] = product.get('price_text', '').get('price_value', '')
+        # loop through list of dictionaries (each dictionary is a coupon/product)
+        for product in data: 
+            coupon = {}
+            coupon['description'] = product.get('description', '')
+            coupon['price'] = product.get('price_text', '').get('price_value', '')
 
-        coupons.append(coupon)
+            coupons.append(coupon)
 
-    readable_json = json.dumps(coupons, indent=4)
+        readable_json = json.dumps(coupons, indent=4)
 
-    with open('flask-backend/src/pizza_chains/json_files/pizzapizza_coupons.json', 'w') as file:
-        file.write(readable_json)
+        with open('flask-backend/src/pizza_chains/json_files/pizzapizza_coupons.json', 'w') as file:
+            file.write(readable_json)
 
+    else:
+        print(f'Failed to scrape pizzapizza coupons: {response.status_code}')
+        print(response.text)
 
 
 def getPizzaPizzaStoreID(coordinates: dict):
@@ -41,12 +45,17 @@ def getPizzaPizzaStoreID(coordinates: dict):
 
     response = requests.get(url, headers=headers)
 
-    stores = response.json().get('stores', {})
+    if response.status_code == 200:
+        stores = response.json().get('stores', {})
 
-    try:
-        store_id = stores[0].get('store_id', '')
-    except: 
-        # if there are no store id's in the json (no stores in relative proximity)
-        return "Error: No Pizza Pizza locations in proximity."
+        try:
+            store_id = stores[0].get('store_id', '')
+        except: 
+            # if there are no store id's in the json (no stores in relative proximity)
+            return "Error: No Pizza Pizza locations in proximity."
 
-    return store_id
+        return store_id
+    
+    else:
+        print(f'Failed to retrieve pizzapizza store id: {response.status_code}')
+        print(response.text)
