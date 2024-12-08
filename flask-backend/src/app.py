@@ -1,11 +1,12 @@
 from flask import Flask, jsonify, request, render_template, redirect, url_for
 import requests
+from flask_cors import CORS
 
-from find_stores import findStores
-from ai_value_analysis import chooseCoupon
+from utils.scrape_stores import scrapeStores
 
 
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/')
 
@@ -15,28 +16,19 @@ def home():
 
 
 
-@app.route('/submit', methods=['GET'])
+@app.route('/validate_postal_code', methods=['POST'])
 
-def submit():
-    number = request.args.get('number')
-    size = request.args.get('size')
-    postalCode = request.args.get('postalCode')
+def validatePostalCode():
+    postalCode = request.json.get('postalCode')
 
-    found = findStores(postalCode)
+    if not postalCode:
+        return jsonify({'valid': False, 'error': 'Postal code not received.'}), 400
+
+    found = scrapeStores(postalCode)
     if not found:
-        return 'I cannot help you without any stores nearby. Sorry b0ss'
+        return jsonify({'valid': False, 'error': 'There are no stores nearby. Double check your postal code.'}), 200
     
-    if not number or not size:
-        error = 'Please select both a number and size for the pizza(s).'
-        return redirect(url_for('home', error=error))
-
-    with open('flask-backend/pizza_chains/user_input.txt', 'w') as file:
-        file.write(number + '\n')
-        file.write(size + '\n')
-
-    best_coupons = chooseCoupon(number, size)
-
-    return f'number: {number}, size: {size} \n Best Coupons: {best_coupons}'
+    return jsonify({'valid': True, 'message': 'Pizza has been located. :)'}), 200
 
 
 

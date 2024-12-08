@@ -2,7 +2,7 @@ import requests, json
 
 scrape_endpoint = 'http://127.0.0.1:5000/scrape'
 
-def scrapeDominos(store_number):
+def scrapeDominos(store_number: str):
     api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
 
     # send request to flask scrape endpoint with the url to scrape as the json payload
@@ -32,9 +32,30 @@ def scrapeDominos(store_number):
         readable_json = json.dumps(coupons, indent=4)
 
         # write readable json to txt file
-        with open('flask-backend/pizza_chains/json_files/dominos_coupons.json', 'w') as file:
+        with open('flask-backend/src/pizza_chains/json_files/dominos_coupons.json', 'w') as file:
             file.write(readable_json)
         
     else:
         print(f'Failed to retrieve data: {response.status_code}')
         print(response.text)
+
+
+
+def getDominosStoreID(coordinates: dict):
+
+    # use lat and long to complete url and request json listing closest dominos stores
+    url = f'https://order.dominos.ca/store-locator-international/locate/store?regionCode=CA&latitude={coordinates['latitude']}&longitude={coordinates['longitude']}'
+
+    response = requests.get(url, headers={'DPZ-Market': 'CANADA'})
+
+    # store and return closest Dominos store ID
+    stores = response.json().get('Stores', {})
+
+    try: 
+        store_number = stores[0].get('StoreID', '')
+    except:
+        # if there are no store id's in the json (no stores in relative proximity)
+        return "Error: No Domino's locations in proximity."
+
+    # type casting to int to match logic in find_stores.py
+    return int(store_number)

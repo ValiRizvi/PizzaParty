@@ -1,6 +1,6 @@
 import requests, json
 
-def scrapePapaJohns(postal_code):
+def scrapePapaJohns(postal_code: str):
 
     url = f'https://www.papajohns.com/order/storesSearchJson?searchType=CARRYOUT&zipcode={postal_code}'
 
@@ -32,7 +32,7 @@ def scrapePapaJohns(postal_code):
         # convert python dictionary to json for readability
         readable_json = json.dumps(coupons, indent=4)
 
-        with open('flask-backend/pizza_chains/json_files/papajohns_coupons.json', 'w') as file:
+        with open('flask-backend/src/pizza_chains/json_files/papajohns_coupons.json', 'w') as file:
             file.write(readable_json)
 
     # if api return empty array (no stores in proximity)        

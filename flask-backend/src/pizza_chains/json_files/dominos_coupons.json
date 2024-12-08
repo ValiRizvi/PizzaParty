@@ -30,11 +30,6 @@
         "price": "25.99"
     },
     {
-        "code": "3415",
-        "description": "3 Medium 3 Topping Pizzas",
-        "price": "27.99"
-    },
-    {
         "code": "3724",
         "description": "2 Medium 1-Topping Pizzas, 16pc Parm Bites & 16pc Cinna Bites",
         "price": "44.46"
@@ -50,24 +45,9 @@
         "price": "15.99"
     },
     {
-        "code": "4218",
-        "description": "Large 4-Topping Pizza (Carryout Only)",
-        "price": "15.99"
-    },
-    {
-        "code": "4276",
-        "description": "2 Large 3 Topping pizzas and Domino's Pizza Cheesy Bread",
-        "price": "34.99"
-    },
-    {
         "code": "5021",
         "description": "1 X-Large 4 Topping Pizza",
         "price": "22.99"
-    },
-    {
-        "code": "8329",
-        "description": "Choose any 2 or more: Cinna Stix\u00ae, Breadsticks, 2 Chocolate Lava Crunch Cakes, 1 6pc Marbled Cookie Brownie, or 16pc Parmesan Bread Bites. Price is per item. (Cheesy Bread may be included at an additional charge)",
-        "price": "5.99"
     },
     {
         "code": "8367",

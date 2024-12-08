@@ -12,7 +12,7 @@
         "price": 13.99
     },
     {
-        "description": "Announcing Fixed-Rate Pizza by Pizza Pizza! Lock into a 1-year fixed rate on an XL 4-topping pizza. Order Pizza Online from a nearby Pizza Pizza location.",
+        "description": "Don't get priced out of pizza. No matter how bad inflation gets, this pizza price stays the same.",
         "price": 17.99
     },
     {
@@ -24,15 +24,15 @@
         "price": 15.99
     },
     {
-        "description": "Enjoy a Medium Pizza and Dip! Start your order by choosing from our wide range of Specials and Deals! Order Pizza Online from a nearby Pizza Pizza location.",
+        "description": "Medium 2-topping pizza + dip",
         "price": 11.49
     },
     {
-        "description": "Enjoy a Large Pizza, Wings, Drinks and Dips! Start your order by choosing from our wide range of Specials and Deals! Order Pizza Online!",
+        "description": "Large 3-topping pizza, 10pcs wings, 4 drinks and 1 dip",
         "price": 31.99
     },
     {
-        "description": "Enjoy an Unlimited Medium 2-Topping Pizza! Order Pizza Online from a nearby Pizza Pizza location. Start your order by choosing from our wide range of specials!",
+        "description": "Medium 2-topping pizza (minimum of 2 required)",
         "price": 8.99
     },
     {
@@ -40,7 +40,7 @@
         "price": 28.99
     },
     {
-        "description": "Order 2 Bottled Drinks to complete your meal!\u00a0Start your order by choosing from our wide range of Drinks Specials and Deals! Order Pizza Online!",
+        "description": "Choose from: Coca-Cola, Diet Coke, Coca-Cola Zero Sugar, Barq's Root Beer, Sprite, Nestea Lemon Iced Tea, Canada Dry Ginger Ale, Dasani Water",
         "price": 4.79
     },
     {
@@ -54,5 +54,9 @@
     {
         "description": "The Toronto Raptors 30th anniversary slice! Sized to Jurassic proportions, available in classic cheese or pepperoni. Finally a slice as big as your fandom!",
         "price": 12.99
+    },
+    {
+        "description": "2 medium pizzas with 4 toppings combined, 4 drinks (355mL) and 4 dips",
+        "price": 22.49
     }
 ]

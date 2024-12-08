@@ -1,10 +1,12 @@
+# needs to be repurposed
+'''
 import os, json, openai
 from openai import OpenAI
 from filter_coupons import filterCoupons
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
-def chooseCoupon(number, size):
+def chooseCoupon(number: str, size: str):
     
     filtered = filterCoupons(number, size)
         
@@ -32,7 +34,7 @@ def chooseCoupon(number, size):
     best_value_coupon = completion.choices[0].message.content
 
     return best_value_coupon.split('\n')
-
+'''
 
 
 
