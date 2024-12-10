@@ -1,5 +1,5 @@
-import requests, json
-from firestore_client import addCouponToDB
+import requests
+from firestore_client import addCouponsToDB
 
 def scrapePapaJohns(postal_code: str):
 
@@ -32,7 +32,7 @@ def scrapePapaJohns(postal_code: str):
 
                 coupons.append(coupon)
 
-            addCouponToDB('PapaJohns', coupons)
+            addCouponsToDB('PapaJohns', coupons)
 
         # if api return empty array (no stores in proximity)        
         except:

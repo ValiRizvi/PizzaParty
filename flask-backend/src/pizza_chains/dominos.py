@@ -1,5 +1,5 @@
-import requests, json
-from firestore_client import addCouponToDB
+import requests
+from firestore_client import addCouponsToDB
 
 
 def scrapeDominos(store_number: str):
@@ -25,7 +25,7 @@ def scrapeDominos(store_number: str):
             }
             coupons.append(coupon)
 
-        addCouponToDB('Dominos', coupons)
+        addCouponsToDB('Dominos', coupons)
         
     else:
         print(f'Failed to scrape dominos coupons: {response.status_code}')

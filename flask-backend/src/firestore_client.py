@@ -6,16 +6,20 @@ firebase_credentials = os.getenv("FIREBASE_ADMIN_CREDENTIALS")
 db = firestore.Client.from_service_account_json(firebase_credentials)
 
 
-def addCouponToDB(chain_name: str, coupons: dict):
+def addCouponsToDB(chain_name: str, coupons: dict):
 
     try:
-        collection_ref = db.collection(chain_name)
+        coupon_batch = db.batch() # batch coupon writes together for efficiency
+        collection_ref = db.collection(chain_name) # create collection for each chain
         
         for coupon in coupons:
-            collection_ref.add(coupon)
-            print(f'document added to {collection_ref}')
+            document_ref = collection_ref.document() # create document reference
+            coupon_batch.set(document_ref, coupon)
+
+        coupon_batch.commit()
+        print(f'Added {len(coupons)} coupons to {chain_name} collection.')
 
     except Exception as e:
-        print(f'error adding document to {collection_ref}: {e}')
+        print(f'Error adding document to {collection_ref}: {e}.')
 
     

@@ -1,0 +1,47 @@
+/* source code from coding2go.com */
+
+.card {
+    margin: 0 auto;
+    padding: 2em;
+    padding-top: 4em;
+    width: 100%;
+    max-width: 500px;
+    background: #2e363a;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+  .card::after, .card::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: conic-gradient(from var(--angle), rgb(2, 240, 200), rgb(0, 255, 170), rgb(179, 255, 0));
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 5px;
+    border-radius: 15px;
+    animation: 6s move linear infinite;
+  }
+  .card::before {
+    filter: blur(1.5rem);
+    opacity: 0.5;
+  }
+  @keyframes move {
+    from{
+      --angle: 0deg;
+    }
+    to{
+      --angle: 360deg;
+    }
+  }

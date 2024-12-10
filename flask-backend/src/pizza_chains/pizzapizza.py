@@ -1,5 +1,5 @@
-import os, requests, json 
-from firestore_client import addCouponToDB
+import os, requests
+from firestore_client import addCouponsToDB
 
 def scrapePizzaPizza(store_id: str):
     url = f'https://www.pizzapizza.ca/ajax/catalog/api/v1/product_list/{store_id}/pickup?category_id=11035'
@@ -25,11 +25,12 @@ def scrapePizzaPizza(store_id: str):
 
             coupons.append(coupon)
 
-        addCouponToDB('PizzaPizza', coupons)
+        addCouponsToDB('PizzaPizza', coupons)
 
     else:
         print(f'Failed to scrape pizzapizza coupons: {response.status_code}')
         print(response.text)
+
 
 
 def getPizzaPizzaStoreID(coordinates: dict):

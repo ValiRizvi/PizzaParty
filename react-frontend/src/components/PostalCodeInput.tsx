@@ -24,7 +24,6 @@ const PostalCodeInput: React.FC<PostalCodeInputProps> = ({ postalCode, setPostal
     return (
         <input
             type='text'
-            placeholder='Postal Code'
             value={postalCode}
             maxLength={7}
             onChange={handleInputChange}

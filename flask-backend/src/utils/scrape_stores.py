@@ -4,7 +4,7 @@ from pizza_chains.dominos import scrapeDominos, getDominosStoreID
 from pizza_chains.pizzapizza import scrapePizzaPizza, getPizzaPizzaStoreID
 from pizza_chains.papajohns import scrapePapaJohns
 
-# if foundAStore returns false then we know there are no stores nearby from any one of the chains.
+# if foundAStore returns as false then we know there are no stores nearby from any one of the chains.
 def scrapeStores(postalCode: str):
     foundAStore = False
 

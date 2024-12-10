@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import '../styles/PostalCodeScreen.css';
+import '../styles/Card.css';
 
 import PostalCodeInput from '../components/PostalCodeInput';
 
@@ -8,6 +9,7 @@ const PostalCodeScreen: React.FC = () => {
     const [postalCode, setPostalCode] = useState<string>('');
     const [error, setError] = useState<string>(''); // error for incorrect postal code format
     const [validSubmission, setValidSubmission] = useState<boolean>(false);
+    const [loading, setLoading] = useState(false);
 
     const handleSubmit = async () => {
         // check postal code format
@@ -20,6 +22,8 @@ const PostalCodeScreen: React.FC = () => {
         };
 
         try {
+            setLoading(true);
+
             const response = await axios.post('http://127.0.0.1:5000/validate_postal_code', { postalCode });
 
             if (response.data.valid) {
@@ -28,9 +32,12 @@ const PostalCodeScreen: React.FC = () => {
                 setError('');
             } else {
                 setValidSubmission(false);
+                setLoading(false)
                 setError(response.data.error);
             };
         } catch (err: unknown) {
+            setLoading(false);
+
             console.error('Error: ', err);
             setValidSubmission(false);
 
@@ -44,13 +51,16 @@ const PostalCodeScreen: React.FC = () => {
 
     return (
         <div className='container'>
-            {validSubmission ? (
-                <div className="success-message">
-                    <h2>Postal Code Accepted! 🎉</h2>
-                    <p>more to come.</p>
+            {loading ? (
+                <div>
+                    {validSubmission ? (
+                        <div className="success-message">
+                            <h2>Postal Code Accepted! 🎉</h2>
+                        </div>
+                    ) : ( <div className='spinner'></div> )} 
                 </div>
             ) : (
-                <>
+                <div className='card'>
                     <h1>Enter your postal code :)</h1>
                     <PostalCodeInput
                         postalCode={postalCode}
@@ -59,11 +69,11 @@ const PostalCodeScreen: React.FC = () => {
                         handleSubmit={handleSubmit}
                     />
 
-                    <button onClick={handleSubmit}>Submit</button>
+                    <button onClick={handleSubmit} disabled={loading}>🍕</button>
 
-                    {/* if error state is truthy make error message visible*/}
+                    {/* show error is error has a truthy value */}
                     <p className={`error-message ${error ? 'show' : ''}`}>{error}</p>
-                </>
+                </div>
             )}
         </div>
     );
