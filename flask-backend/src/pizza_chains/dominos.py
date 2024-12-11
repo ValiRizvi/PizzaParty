@@ -2,7 +2,7 @@ import requests
 from firestore_client import addCouponsToDB
 
 
-def scrapeDominos(store_number: str):
+def scrapeDominos(store_number: int):
     api_url = f'https://order.dominos.ca/power/store/{store_number}/menu?lang=en&structured=true'
 
     response = requests.get(api_url)
@@ -25,7 +25,7 @@ def scrapeDominos(store_number: str):
             }
             coupons.append(coupon)
 
-        addCouponsToDB('Dominos', coupons)
+        addCouponsToDB('Dominos', str(store_number), coupons)
         
     else:
         print(f'Failed to scrape dominos coupons: {response.status_code}')
@@ -50,9 +50,11 @@ def getDominosStoreID(coordinates: dict):
             # if there are no store id's in the json (no stores in relative proximity)
             return "Error: No Domino's locations in proximity."
 
-        # type casting to int to match logic in find_stores.py
+        # type casting to int to match logic in scrape_stores.py
         return int(store_number)
     
     else:
         print(f'Failed to retrieve dominos store id: {response.status_code}')
         print(response.text)
+
+        return 'error'
