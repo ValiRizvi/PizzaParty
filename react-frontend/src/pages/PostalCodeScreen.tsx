@@ -12,6 +12,12 @@ const PostalCodeScreen: React.FC = () => {
     const [loading, setLoading] = useState(false);
 
     const handleSubmit = async () => {
+        // submit without entering any text
+        if (postalCode === '') {
+            setError('I need a postal code to find you a deal comrade.');
+            return;
+        };
+
         // check postal code format
         const regex = /^[A-Za-z]\d[A-Za-z] \d[A-Za-z]\d$/;
 
@@ -24,7 +30,7 @@ const PostalCodeScreen: React.FC = () => {
         try {
             setLoading(true);
 
-            const response = await axios.post('http://127.0.0.1:5000/validate_postal_code', { postalCode });
+            const response = await axios.post('http://127.0.0.1:5000/process_postal_code', { postalCode });
 
             if (response.data.valid) {
                 setValidSubmission(true);

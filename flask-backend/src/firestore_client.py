@@ -78,3 +78,17 @@ def deleteCoupons(chain_name: str, store_id: str):
 
     except Exception as e:
         print(f'Error deleting coupons for {chain_name}: {store_id} -- {e}.')
+
+
+
+def pullFromDB(chain_name: str, store_id: str):
+
+    coupons_ref = db.collection(chain_name).document(store_id).collection('coupons')
+
+    coupons = coupons_ref.get()
+
+    if coupons.exists:
+        return coupons.to_dict()
+    else:
+        return print('Error: data does not exist.')
+
