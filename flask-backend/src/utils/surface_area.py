@@ -13,9 +13,12 @@ def getTotalSurfaceArea(size: str, number: str):
             diameter = 16
 
     radius = diameter / 2
-    area = math.pi * (radius ** 2)
+    
+    surfaceArea = math.pi * (radius ** 2)
 
-    return area * int(number)
+    surfaceArea *= int(number)
+
+    return surfaceArea
 
 
 

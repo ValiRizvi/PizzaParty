@@ -1,5 +1,5 @@
 import requests
-from firestore_client import addCouponsToDB
+from utils.firestore_client import addCouponsToDB
 
 def scrapePapaJohns(storeId: int):
 
@@ -14,8 +14,9 @@ def scrapePapaJohns(storeId: int):
     # make list of dictionaries
     coupons = []
 
-    for deal in deals:
+    for index, deal in enumerate(deals):
         coupon = {}
+        coupon['code'] = index + 1
         coupon['description'] = deal.get('description', '')
         coupon['price'] = deal.get('displayPrice', '')
 

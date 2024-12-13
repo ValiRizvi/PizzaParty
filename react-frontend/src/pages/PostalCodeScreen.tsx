@@ -14,7 +14,7 @@ const PostalCodeScreen: React.FC = () => {
     const handleSubmit = async () => {
         // submit without entering any text
         if (postalCode === '') {
-            setError('I need a postal code to find you a deal comrade.');
+            setError('I need a postal code to find you a deal, comrade.');
             return;
         };
 

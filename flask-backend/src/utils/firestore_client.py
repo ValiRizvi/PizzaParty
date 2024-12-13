@@ -19,7 +19,7 @@ def addCouponsToDB(chain_name: str, store_id: str, coupons: list):
         collection_ref = db.collection(chain_name) # create collection for each chain
         store_ref = collection_ref.document(store_id) # create subcollection for each store
 
-        store_ref.set({'last_scraped': date.isoformat()}, merge=True)
+        store_ref.set({'last_scraped': date.isoformat()}, merge=True) # set last_scraped property to current date
 
         coupons_ref = store_ref.collection('coupons') # create subcollection for coupons
         
@@ -87,8 +87,10 @@ def pullFromDB(chain_name: str, store_id: str):
 
     coupons = coupons_ref.get()
 
-    if coupons.exists:
-        return coupons.to_dict()
-    else:
-        return print('Error: data does not exist.')
+    couponCollection = []
 
+    if coupons:
+        for coupon in coupons:
+            couponCollection.append(coupon.to_dict())
+    
+    return couponCollection

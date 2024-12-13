@@ -1,5 +1,5 @@
 import os, requests
-from firestore_client import addCouponsToDB
+from utils.firestore_client import addCouponsToDB
 
 def scrapePizzaPizza(storeId: str):
     url = f'https://www.pizzapizza.ca/ajax/catalog/api/v1/product_list/{storeId}/pickup?category_id=11035'
@@ -18,8 +18,9 @@ def scrapePizzaPizza(storeId: str):
         coupons = []
 
         # loop through list of dictionaries (each dictionary is a coupon/product)
-        for product in data: 
+        for index, product in enumerate(data): 
             coupon = {}
+            coupon['code'] = index + 1
             coupon['description'] = product.get('description', '')
             coupon['price'] = product.get('price_text', '').get('price_value', '')
 

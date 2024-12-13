@@ -1,7 +1,8 @@
-from flask import Flask, jsonify, request
+from flask import Flask, jsonify, request, json
 from flask_cors import CORS
 
 from utils.scrape_stores import scrapeStores
+from utils.firestore_client import pullFromDB
 
 
 app = Flask(__name__)
@@ -18,6 +19,22 @@ def processPostalCode():
         return jsonify({'valid': False, 'error': 'Postal code not received.'}), 400
 
     local_stores = scrapeStores(postalCode)
+
+    # TEST PURPOSES
+
+    allCoupons = {}
+
+    for key, value in local_stores.items():
+        coupons = pullFromDB(key, value)
+
+        allCoupons[key] = coupons
+
+    readable_json = json.dumps(allCoupons, indent=4)
+
+    with open(f'flask-backend/src/pizza_chains/json_files/coupons.json', 'w') as file:
+        file.write(readable_json)
+
+    ###############
 
     # if local stores dict is empty no stores were found 
     if not local_stores:

@@ -1,5 +1,5 @@
 import requests
-from firestore_client import addCouponsToDB
+from utils.firestore_client import addCouponsToDB
 
 
 def scrapeDominos(store_number: int):
@@ -17,7 +17,7 @@ def scrapeDominos(store_number: int):
         coupons = []
 
         # loop through 
-        for key, value in coupons_data.items():
+        for value in coupons_data.values():
             coupon = {
                 'code': value.get('Code', ''),
                 'description': value.get('Name', ''),

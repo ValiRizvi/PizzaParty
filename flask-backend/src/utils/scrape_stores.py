@@ -4,7 +4,7 @@ from pizza_chains.dominos import scrapeDominos, getDominosStoreID
 from pizza_chains.pizzapizza import scrapePizzaPizza, getPizzaPizzaStoreID
 from pizza_chains.papajohns import scrapePapaJohns, getPapaJohnsStoreID
 
-from firestore_client import checkStoreScrapedToday
+from utils.firestore_client import checkStoreScrapedToday
 
 
 def scrapeStores(postalCode: str):
@@ -31,7 +31,7 @@ def scrape(chain_collection_name: str, getStoreId: callable, scrapeFunction: cal
             scrapeFunction(storeId)
         
         # store the id in dict to have a log of relevant stores to later query from db and retrieve relevant coupons
-        local_stores[chain_collection_name] = storeId
+        local_stores[chain_collection_name] = str(storeId)
 
 
 
