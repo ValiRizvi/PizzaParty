@@ -3,6 +3,8 @@ from flask_cors import CORS
 
 from utils.scrape_stores import scrapeStores
 from utils.firestore_client import pullFromDB
+from utils.firestore_client import getCouponFromFirestore
+from best_value import bestValue
 
 
 app = Flask(__name__)
@@ -25,14 +27,22 @@ def processPostalCode():
     allCoupons = {}
 
     for key, value in local_stores.items():
-        coupons = pullFromDB(key, value)
 
+        coupons = pullFromDB(key, value)
         allCoupons[key] = coupons
+
 
     readable_json = json.dumps(allCoupons, indent=4)
 
     with open(f'flask-backend/src/pizza_chains/json_files/coupons.json', 'w') as file:
         file.write(readable_json)
+
+
+    bestCouponInfo = bestValue(local_stores, allCoupons)
+
+    bestCoupon = getCouponFromFirestore(bestCouponInfo)
+
+    print(bestCoupon)
 
     ###############
 

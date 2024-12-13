@@ -81,6 +81,8 @@ def deleteCoupons(chain_name: str, store_id: str):
 
 
 
+# pulls all coupons for a given store from database
+
 def pullFromDB(chain_name: str, store_id: str):
 
     coupons_ref = db.collection(chain_name).document(store_id).collection('coupons')
@@ -94,3 +96,32 @@ def pullFromDB(chain_name: str, store_id: str):
             couponCollection.append(coupon.to_dict())
     
     return couponCollection
+
+
+
+# function just for pulling a single coupon
+
+from google.cloud.firestore_v1.base_query import FieldFilter  # need FieldFilter to avoid warning messages (still works without this)
+
+def getCouponFromFirestore(bestCouponInfo: dict):
+    
+    chain_name = bestCouponInfo['chain']
+    store_number = bestCouponInfo['storeId']
+    code = bestCouponInfo['code']
+
+
+    chain_ref = db.collection(chain_name)
+
+    store_ref = chain_ref.document(store_number).collection('coupons')
+
+    coupon_ref = store_ref.where(filter=FieldFilter(field_path='code', op_string='==', value=code))
+
+    results = coupon_ref.get()
+
+
+    if results:
+        coupon = results[0]  # retrieve first match
+        return coupon.to_dict()
+    else:
+        print(f'No coupon with code: {code} in {chain_name}: {store_number}.')
+        return None

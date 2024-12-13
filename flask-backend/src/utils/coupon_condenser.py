@@ -73,7 +73,7 @@ def condense(coupon: dict, chain_name: str):
 
     return {
         'code': coupon.get('code'),  
-        'price': coupon.get('price'),
+        'price': float(coupon.get('price')),
         'number': number,
         'size': size
     }

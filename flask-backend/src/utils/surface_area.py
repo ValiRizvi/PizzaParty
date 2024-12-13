@@ -1,13 +1,14 @@
 import math 
 
+# calculates surface area of pizza(s) in square inches
 def getTotalSurfaceArea(size: str, number: str):
 
     match size:
-        case 'small':
+        case 'Small':
             diameter = 10
-        case 'medium':
+        case 'Medium':
             diameter = 12
-        case 'large':
+        case 'Large':
             diameter = 14
         case _: # x-large is written differently between chains so its just the default to simplify
             diameter = 16
@@ -16,11 +17,8 @@ def getTotalSurfaceArea(size: str, number: str):
     
     surfaceArea = math.pi * (radius ** 2)
 
-    surfaceArea *= int(number)
+    surfaceArea *= float(number)
 
     return surfaceArea
-
-
-
 
 
