@@ -1,5 +1,5 @@
-import PostalCodeScreen from './pages/PostalCodeScreen';
-import Background from './components/Background';
+import PageManager from './pages/PageManager.tsx';
+import Background from './components/Background.tsx';
 
 import '../src/styles/App.css';
 
@@ -10,7 +10,7 @@ function App() {
       <div className='blur-layer'></div>
 
       <div className='content'>
-        <PostalCodeScreen />
+        <PageManager />
       </div>
     </div>
   )

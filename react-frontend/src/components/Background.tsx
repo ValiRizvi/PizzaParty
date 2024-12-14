@@ -11,8 +11,9 @@ const Background: React.FC = () => {
     return (
         <div className="background">
             <div className="triangles">
-                {triangles.map((i) => (
+                {triangles.map((i, index) => (
                     <span 
+                        key={index} 
                         style={{
                             // random i (animation duration), x/y values and rotation value
                             '--i': `${i}`,

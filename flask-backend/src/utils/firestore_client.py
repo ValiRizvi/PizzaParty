@@ -72,7 +72,9 @@ def deleteCoupons(chain_name: str, store_id: str):
             toDelete_batch = db.batch()
 
             for coupon in coupons:
-                toDelete_batch.delete(coupons_ref.document(coupon.id))
+                toDelete_batch.delete(coupon.reference)
+
+            toDelete_batch.commit()
 
             print(f'Deleted all coupons for {chain_name}: {store_id} from {dateScraped}.')
 

@@ -1,17 +1,27 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from 'axios';
-import '../styles/PostalCodeScreen.css';
+
+import PostalCodeInput from './PostalCodeInput.tsx';
+import '../styles/PostalCodeForm.css';
 import '../styles/Card.css';
 
-import PostalCodeInput from '../components/PostalCodeInput';
+interface PostalCodeFormProps {
+    onValidSubmission: (validSubmission: boolean) => void;
+};
 
-const PostalCodeScreen: React.FC = () => {
+const PostalCodeForm: React.FC<PostalCodeFormProps> = ({ onValidSubmission }) => {
     const [postalCode, setPostalCode] = useState<string>('');
-    const [error, setError] = useState<string>(''); // error for incorrect postal code format
     const [validSubmission, setValidSubmission] = useState<boolean>(false);
-    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState<string>('');
+    const [loading, setLoading] = useState<boolean>(false);
+
+    useEffect(() => {
+        onValidSubmission(validSubmission)
+    }, [validSubmission]);
+
 
     const handleSubmit = async () => {
+
         // submit without entering any text
         if (postalCode === '') {
             setError('I need a postal code to find you a deal, comrade.');
@@ -28,24 +38,24 @@ const PostalCodeScreen: React.FC = () => {
         };
 
         try {
-            setLoading(true);
+            setLoading(true); // show the spinner 
 
             const response = await axios.post('http://127.0.0.1:5000/process_postal_code', { postalCode });
 
             if (response.data.valid) {
-                setValidSubmission(true);
                 console.log('Postal code is valid:', postalCode);
                 setError('');
+                setValidSubmission(true)
             } else {
-                setValidSubmission(false);
                 setLoading(false)
                 setError(response.data.error);
+                setValidSubmission(false)
             };
         } catch (err: unknown) {
             setLoading(false);
+            setValidSubmission(false)
 
             console.error('Error: ', err);
-            setValidSubmission(false);
 
             if (err instanceof Error) {
                 setError(err.message || 'An unexpected error occurred.');
@@ -53,7 +63,9 @@ const PostalCodeScreen: React.FC = () => {
                 setError('An unexpected error occurred.');
             };
         };
+        
     };
+
 
     return (
         <div className='container'>
@@ -77,7 +89,7 @@ const PostalCodeScreen: React.FC = () => {
 
                     <button onClick={handleSubmit} disabled={loading}>🍕</button>
 
-                    {/* show error is error has a truthy value */}
+                    {/* show error if error has a truthy value */}
                     <p className={`error-message ${error ? 'show' : ''}`}>{error}</p>
                 </div>
             )}
@@ -85,4 +97,4 @@ const PostalCodeScreen: React.FC = () => {
     );
 };
 
-export default PostalCodeScreen;
+export default PostalCodeForm;

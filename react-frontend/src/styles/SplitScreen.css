@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.split-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh; 
+    gap: 15em; 
+}
+
+.split-screen-left,
+.split-screen-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1; 
+}
+
+.split-box {
+    margin: 0 auto;
+    padding: 2em;
+    width: 540px;    
+    height: 800px;  
+    background: #2e363a; 
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.split-box-left::after,
+.split-box-left::before {
+    background-image: conic-gradient(from var(--angle), blue, rgb(0, 183, 255), rgb(0, 204, 255), blue);
+}
+
+.split-box-right::after,
+.split-box-right::before {
+    background-image: conic-gradient(from var(--angle), red, rgb(255, 72, 0), rgb(255, 0, 149), red);
+}
+
+.split-box::after,
+.split-box::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 5px;
+    border-radius: 15px;
+    animation: 6s move linear infinite;
+}
+
+.split-box::before {
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+@keyframes move {
+    from {
+        --angle: 0deg;
+    }
+    to {
+        --angle: 360deg;
+    }
+}
