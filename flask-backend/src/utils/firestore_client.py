@@ -10,6 +10,9 @@ currentTime = datetime.now()
 date = currentTime.date()
 
 
+##  ALL FIRESTORE INTERACTIVE FUNCTIONS ARE DEFINED IN THIS FILE AND ACCESSED ELSEWHERE  ##
+
+
 def addCouponsToDB(chain_name: str, store_id: str, coupons: list):
 
     deleteCoupons(chain_name, store_id) # delete outdated coupons if they exist
@@ -68,6 +71,7 @@ def deleteCoupons(chain_name: str, store_id: str):
 
             dateScraped = store_ref.get().to_dict().get('last_scraped')
             store_ref.set({'last_scraped': None}, merge=True)
+            store_ref.set({'embedded': False}, merge=True)
 
             toDelete_batch = db.batch()
 
@@ -101,7 +105,7 @@ def pullFromDB(chain_name: str, store_id: str):
 
 
 
-# function just for pulling a single coupon
+# function just for pulling a single coupon 
 
 from google.cloud.firestore_v1.base_query import FieldFilter  # need FieldFilter to avoid warning messages (still works without this)
 
@@ -127,3 +131,51 @@ def getCouponFromFirestore(bestCouponInfo: dict):
     else:
         print(f'No coupon with code: {code} in {chain_name}: {store_number}.')
         return None
+
+
+
+def checkEmbedded(chain_name: str, store_id: str):
+
+    store_ref = db.collection(chain_name).document(store_id)
+
+    try: 
+        embedded = store_ref.get().to_dict().get('embedded')
+        return embedded
+
+    except:
+        return False
+
+
+
+def storeEmbeddingInDB(allEmbeddings: dict):
+
+    try:
+        # loop through each chain in dictionary
+        for chain_name, store_data in allEmbeddings.items():
+
+            store_id = store_data['store_id']
+            embeddings = store_data['embeddings']
+
+            store_ref = db.collection(chain_name).document(store_id)
+
+            # reference for embedding subcollection under current store collection, to be at same level as coupons collection
+            embedding_ref = store_ref.collection('embedded_coupons')
+
+            # Iterate over each embedding and store it along with its corresponding coupon code
+            for item in embeddings:
+                embedding_ref.add({
+                    'code': item['code'],
+                    'embedding': item['embedding']
+                })
+
+            print(f'Embeddings stored for {chain_name}: {store_id}.')
+
+            # set field to later reference when checking if data was already embedded
+            store_ref.set({'embedded': True}, merge=True)
+    
+    except Exception as e:
+        print(f'Error storing embeddings: {e}')
+
+
+
+

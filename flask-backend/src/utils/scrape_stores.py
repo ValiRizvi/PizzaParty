@@ -13,9 +13,9 @@ def scrapeStores(postalCode: str):
 
     coordinates = getCoordinates(postalCode)
 
-    scrape('Dominos', getDominosStoreID, scrapeDominos, coordinates, local_stores) 
-    scrape('PizzaPizza', getPizzaPizzaStoreID, scrapePizzaPizza, coordinates, local_stores)
+    scrape('Dominos', getDominosStoreID, scrapeDominos, coordinates, local_stores)
     scrape('PapaJohns', getPapaJohnsStoreID, scrapePapaJohns, postalCode, local_stores)
+    scrape('PizzaPizza', getPizzaPizzaStoreID, scrapePizzaPizza, coordinates, local_stores)
 
     return local_stores # dict of local stores, will be empty if no stores are nearby
 

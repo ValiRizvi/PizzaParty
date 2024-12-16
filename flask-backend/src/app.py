@@ -1,9 +1,8 @@
-from flask import Flask, jsonify, request, json
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 from utils.scrape_stores import scrapeStores
-from utils.firestore_client import pullFromDB
-from utils.firestore_client import getCouponFromFirestore
+from utils.firestore_client import pullFromDB, getCouponFromFirestore
 from best_value import bestValue
 
 
@@ -20,23 +19,26 @@ def processPostalCode():
     if not postalCode:
         return jsonify({'valid': False, 'error': 'Postal code not received.'}), 400
 
+
+    '''
+        local_stores returns a dict of the chains that are available.  key=chain_name : value=store_id
+
+    ex. local_stores = {
+            'Dominos': '12345',
+            'PapaJohns': '54321'
+        }
+    '''
     local_stores = scrapeStores(postalCode)
 
-    # TEST PURPOSES
+    # TEST PURPOSES #
 
     allCoupons = {}
 
     for key, value in local_stores.items():
 
-        coupons = pullFromDB(key, value)
+        coupons = pullFromDB(chain_name=key, store_id=value)
         allCoupons[key] = coupons
-
-
-    readable_json = json.dumps(allCoupons, indent=4)
-
-    with open(f'flask-backend/src/pizza_chains/json_files/coupons.json', 'w') as file:
-        file.write(readable_json)
-
+        
 
     bestCouponInfo = bestValue(local_stores, allCoupons)
 
@@ -44,7 +46,7 @@ def processPostalCode():
 
     print(bestCoupon)
 
-    ###############
+    ################
 
     # if local stores dict is empty no stores were found 
     if not local_stores:

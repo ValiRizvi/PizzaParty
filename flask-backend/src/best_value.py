@@ -25,16 +25,16 @@ def bestValue(local_stores: dict, allCoupons: dict):
         'value': 0.0
     }
 
-    for key in condensed.keys():
-        for coupon in condensed[key]:
+    for key in condensed.keys(): # for each store
+        for coupon in condensed[key]: # loop through the condensed coupons
             size = coupon.get('size')
             number = coupon.get('number')
             price = coupon.get('price')
 
-            surfaceArea = getTotalSurfaceArea(size, number)
+            surfaceArea = getTotalSurfaceArea(size, number) # calculate the total surface area of pizza(s) included 
             value = surfaceArea / price
             
-            if value > bestValue['value']:
+            if value > bestValue['value']: # store the highest value coupon info in 'bestValue' dictionary
                 bestValue['chain'] = key
                 bestValue['code'] = coupon.get('code')
                 bestValue['value'] = value
