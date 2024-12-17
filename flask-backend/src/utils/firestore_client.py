@@ -15,7 +15,8 @@ date = currentTime.date()
 
 def addCouponsToDB(chain_name: str, store_id: str, coupons: list):
 
-    deleteCoupons(chain_name, store_id) # delete outdated coupons if they exist
+    deleteCoupons(chain_name, store_id, 'coupons') # delete outdated coupons if they exist
+    deleteCoupons(chain_name, store_id, 'embedded_coupons')
 
     try:
         coupon_batch = db.batch() # batch coupon writes together for efficiency
@@ -58,12 +59,12 @@ def checkStoreScrapedToday(chain_name: str, store_id: str):
             
 
 
-def deleteCoupons(chain_name: str, store_id: str):
+def deleteCoupons(chain_name: str, store_id: str, collection_to_delete: str):
     
     try: 
 
         store_ref = db.collection(chain_name).document(store_id)
-        coupons_ref = store_ref.collection('coupons')
+        coupons_ref = store_ref.collection(collection_to_delete)
 
         coupons = list(coupons_ref.stream()) # retrieve all coupon documents
 
@@ -80,7 +81,7 @@ def deleteCoupons(chain_name: str, store_id: str):
 
             toDelete_batch.commit()
 
-            print(f'Deleted all coupons for {chain_name}: {store_id} from {dateScraped}.')
+            print(f'Deleted all coupons for {chain_name}: {store_id} in {collection_to_delete} from {dateScraped}.')
 
     except Exception as e:
         print(f'Error deleting coupons for {chain_name}: {store_id} -- {e}.')
@@ -89,9 +90,9 @@ def deleteCoupons(chain_name: str, store_id: str):
 
 # pulls all coupons for a given store from database
 
-def pullFromDB(chain_name: str, store_id: str):
+def pullFromDB(chain_name: str, store_id: str, collection_to_pull: str):
 
-    coupons_ref = db.collection(chain_name).document(store_id).collection('coupons')
+    coupons_ref = db.collection(chain_name).document(store_id).collection(collection_to_pull)
 
     coupons = coupons_ref.get()
 
@@ -124,10 +125,12 @@ def getCouponFromFirestore(bestCouponInfo: dict):
 
     results = coupon_ref.get()
 
-
     if results:
         coupon = results[0]  # retrieve first match
-        return coupon.to_dict()
+        bestCouponInfo['coupon'] = coupon.to_dict()
+
+        return bestCouponInfo
+    
     else:
         print(f'No coupon with code: {code} in {chain_name}: {store_number}.')
         return None
@@ -147,11 +150,11 @@ def checkEmbedded(chain_name: str, store_id: str):
 
 
 
-def storeEmbeddingInDB(allEmbeddings: dict):
+def storeEmbeddingInDB(allCouponsEmbedded: dict):
 
     try:
         # loop through each chain in dictionary
-        for chain_name, store_data in allEmbeddings.items():
+        for chain_name, store_data in allCouponsEmbedded.items():
 
             store_id = store_data['store_id']
             embeddings = store_data['embeddings']
@@ -165,6 +168,8 @@ def storeEmbeddingInDB(allEmbeddings: dict):
             for item in embeddings:
                 embedding_ref.add({
                     'code': item['code'],
+                    'price': item['price'],
+                    'description': item['description'],
                     'embedding': item['embedding']
                 })
 
@@ -175,6 +180,7 @@ def storeEmbeddingInDB(allEmbeddings: dict):
     
     except Exception as e:
         print(f'Error storing embeddings: {e}')
+
 
 
 

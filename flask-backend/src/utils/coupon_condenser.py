@@ -63,6 +63,11 @@ def condense(coupon: dict, chain_name: str):
     # edge case for descriptions that have 'pizza' but no size specified -- default to medium 
     isPizza = 'pizza' in description.lower()
 
+    # exclude cases where 'pizza' is preceded by 'order' (e.g., 'Order Pizza Online') for coupons for drinks etc.
+    orderPizzaPattern = r'(?i)\b(order|get)\s+pizza'
+    if re.search(orderPizzaPattern, description):
+        isPizza = False
+
     # skip coupon if no size matches
     if not size:
         if not isPizza:

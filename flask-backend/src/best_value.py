@@ -16,7 +16,7 @@ def bestValue(local_stores: dict, allCoupons: dict):
                 condensed[chain_name] = processed
         
     
-    # calculate surface area of pizza provided by each coupon, add result as a coupon key-value pair
+    # calculate surface area of pizza provided by each coupon, add result as a coupon key-value pair to bestValue dict
 
     bestValue = {
         'storeId': '',

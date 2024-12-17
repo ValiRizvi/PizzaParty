@@ -2,8 +2,13 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 
 from utils.scrape_stores import scrapeStores
-from utils.firestore_client import pullFromDB, getCouponFromFirestore
+from utils.firestore_client import pullFromDB, getCouponFromFirestore, storeEmbeddingInDB
+from embedding import generateEmbeddings
 from best_value import bestValue
+from most_similar import mostSimilar
+
+import json
+
 
 
 app = Flask(__name__)
@@ -36,15 +41,30 @@ def processPostalCode():
 
     for key, value in local_stores.items():
 
-        coupons = pullFromDB(chain_name=key, store_id=value)
+        coupons = pullFromDB(chain_name=key, store_id=value, collection_to_pull='coupons')
         allCoupons[key] = coupons
         
 
+    ### BEST VALUE COUPON FUNCTION
     bestCouponInfo = bestValue(local_stores, allCoupons)
 
     bestCoupon = getCouponFromFirestore(bestCouponInfo)
 
-    print(bestCoupon)
+    print(json.dumps(bestCoupon, indent=4))
+
+
+
+    ### MOST SIMILAR COUPON FUNCTION
+    allCouponsEmbedded = generateEmbeddings(local_stores, allCoupons)
+
+    userInput = '1 Medium Feast Pizza'
+    most_similar_coupon = mostSimilar(
+        userInput=userInput,
+        allCouponsEmbedded=allCouponsEmbedded
+    )
+
+    print(json.dumps(most_similar_coupon, indent=4))
+    
 
     ################
 
