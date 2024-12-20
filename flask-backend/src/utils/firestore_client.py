@@ -10,7 +10,7 @@ currentTime = datetime.now()
 date = currentTime.date()
 
 
-##  ALL FIRESTORE INTERACTIVE FUNCTIONS ARE DEFINED IN THIS FILE AND ACCESSED ELSEWHERE  ##
+##  ALL FIRESTORE INTERACTIVE FUNCTIONS ARE DEFINED IN THIS FILE  ##
 
 
 def addCouponsToDB(chain_name: str, store_id: str, coupons: list):
@@ -113,7 +113,7 @@ from google.cloud.firestore_v1.base_query import FieldFilter  # need FieldFilter
 def getCouponFromFirestore(bestCouponInfo: dict):
     
     chain_name = bestCouponInfo['chain']
-    store_number = bestCouponInfo['storeId']
+    store_number = bestCouponInfo['store_id']
     code = bestCouponInfo['code']
 
 

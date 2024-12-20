@@ -1,30 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 
-import PostalCodeInput from './PostalCodeInput.tsx';
-import '../styles/PostalCodeForm.css';
-import '../styles/Card.css';
+import PostalCodeInput from './PostalCodeInput';
+import '../../styles/PostalCodeForm.css';
+import '../../styles/Card.css';
+import { Typography } from '@mui/material';
 
 interface PostalCodeFormProps {
-    onValidSubmission: (validSubmission: boolean) => void;
+    onValidSubmission: (valid: boolean, localStores?: any, allCoupons?: any) => void;
 };
+
 
 const PostalCodeForm: React.FC<PostalCodeFormProps> = ({ onValidSubmission }) => {
     const [postalCode, setPostalCode] = useState<string>('');
-    const [validSubmission, setValidSubmission] = useState<boolean>(false);
     const [error, setError] = useState<string>('');
     const [loading, setLoading] = useState<boolean>(false);
-
-    useEffect(() => {
-        onValidSubmission(validSubmission)
-    }, [validSubmission]);
-
 
     const handleSubmit = async () => {
 
         // submit without entering any text
-        if (postalCode === '') {
+        if (!postalCode.trim()) {
             setError('I need a postal code to find you a deal, comrade.');
+            setPostalCode(''); // clear input
             return;
         };
 
@@ -43,17 +40,21 @@ const PostalCodeForm: React.FC<PostalCodeFormProps> = ({ onValidSubmission }) =>
             const response = await axios.post('http://127.0.0.1:5000/process_postal_code', { postalCode });
 
             if (response.data.valid) {
+
                 console.log('Postal code is valid:', postalCode);
                 setError('');
-                setValidSubmission(true)
+                onValidSubmission(true, response.data.local_stores, response.data.allCoupons)
+
             } else {
-                setLoading(false)
+
                 setError(response.data.error);
-                setValidSubmission(false)
+                onValidSubmission(false);
+
             };
+            
         } catch (err: unknown) {
-            setLoading(false);
-            setValidSubmission(false)
+            
+            onValidSubmission(false);
 
             console.error('Error: ', err);
 
@@ -62,6 +63,9 @@ const PostalCodeForm: React.FC<PostalCodeFormProps> = ({ onValidSubmission }) =>
             } else {
                 setError('An unexpected error occurred.');
             };
+
+        } finally {
+            setLoading(false);
         };
         
     };
@@ -70,16 +74,17 @@ const PostalCodeForm: React.FC<PostalCodeFormProps> = ({ onValidSubmission }) =>
     return (
         <div className='container'>
             {loading ? (
-                <div>
-                    {validSubmission ? (
-                        <div className="success-message">
-                            <h2>Postal Code Accepted! 🎉</h2>
-                        </div>
-                    ) : ( <div className='spinner'></div> )} 
-                </div>
+                
+                <div className='spinner'></div>  
+                
             ) : (
                 <div className='card'>
-                    <h1>Enter your postal code :)</h1>
+                    <Typography variant='h1'>
+                        Enter your postal code:
+                    </Typography>
+                    <Typography>
+                        let's find you a deal :)
+                    </Typography>
                     <PostalCodeInput
                         postalCode={postalCode}
                         setPostalCode={setPostalCode}

@@ -7,8 +7,9 @@ interface PostalCodeInputProps {
     handleSubmit: () => void; 
 };
 
-const PostalCodeInput: React.FC<PostalCodeInputProps> = ({ postalCode, setPostalCode, setError, handleSubmit }) => {
 
+const PostalCodeInput: React.FC<PostalCodeInputProps> = ({ postalCode, setPostalCode, setError, handleSubmit }) => {
+    
     const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
         setPostalCode(e.target.value);
         setError('');
@@ -19,7 +20,13 @@ const PostalCodeInput: React.FC<PostalCodeInputProps> = ({ postalCode, setPostal
         if (e.key === 'Enter') { 
             handleSubmit(); 
         };
+        
+        if (postalCode.length === 7) {
+            setError('Max character limit reached.');
+            setTimeout(() => setError(''), 1750);  // clear error after a second
+        };
     };
+    
 
     return (
         <input

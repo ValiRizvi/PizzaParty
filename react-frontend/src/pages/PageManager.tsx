@@ -1,31 +1,55 @@
 import React, { useState } from 'react';
 
-import PostalCodeForm from '../components/PostalCodeForm';
+import PostalCodeForm from '../components/postal_code/PostalCodeForm';
+import BestValueButton from '../components/best_value/BestValueButton';
+import MostSimilar from '../components/most_similar/MostSimilar';
 
 import '../styles/SplitScreen.css';
+
 
 const PageManager: React.FC = () => {
 
     const [postalCodeValid, setPostalCodeValid] = useState<boolean>(false);
+    const [localStores, setLocalStores] = useState<any>(null);
+    const [allCoupons, setAllCoupons] = useState<any>(null);
+    
+    
+    const handleValidSubmission = (valid: boolean, local_stores: any, allCoupons: any) => {
+        setPostalCodeValid(valid);
+        if (local_stores) {
+            setLocalStores(local_stores);
+            setAllCoupons(allCoupons);
+        };
+    };
+    
 
     return (
         <div>
+
             {postalCodeValid ? ( 
                 <div className="split-screen">
+
                     <div className="split-screen">
+
                         <div className="split-box split-box-left">
-                            <h2>Best Value</h2>
+                            <BestValueButton local_stores={localStores} allCoupons={allCoupons} />
                         </div>
+
                     </div>
+
                     <div className="split-screen">
+
                         <div className="split-box split-box-right">
-                            <h2>AI</h2>
+                            <MostSimilar local_stores={localStores} allCoupons={allCoupons} />
                         </div>
+
                     </div>
+
                 </div>
             ) : (
-                <PostalCodeForm onValidSubmission={setPostalCodeValid} />
+                <PostalCodeForm onValidSubmission={handleValidSubmission} />
             )}
+
         </div>
     );
 };

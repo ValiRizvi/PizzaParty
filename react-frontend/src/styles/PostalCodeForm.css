@@ -24,18 +24,17 @@
   }
   
   .container input {
-    padding: 0.8rem;
-    font-size: 1.3rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
     text-align: center;
-    margin-top: 2rem;
     margin-bottom: 1rem;
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 80%;
-    height: 60px;
+    height: 70px;
     max-width: 500px;
-    background-color: rgb(94, 90, 85);
-    font-family: Arial;
+    background-color: rgb(64, 68, 80);
+    font-family: Roboto;
     color: white;
   }
   

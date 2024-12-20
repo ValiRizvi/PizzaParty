@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/Background.css';
 
+
 const Background: React.FC = () => {
     
     const triangles: number[] = [];
     for (let i = 0; i < 50; i++) {
         triangles.push(Math.floor(Math.random() * 40));
     }
+    
 
     return (
         <div className="background">

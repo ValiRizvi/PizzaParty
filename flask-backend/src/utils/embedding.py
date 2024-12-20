@@ -1,7 +1,7 @@
 import os, openai
 from openai import OpenAI
 
-from utils.firestore_client import pullFromDB, checkEmbedded, storeEmbeddingInDB
+from .firestore_client import pullFromDB, checkEmbedded, storeEmbeddingInDB
 
 openai.api_key = os.getenv('OPENAI_API_KEY')
 

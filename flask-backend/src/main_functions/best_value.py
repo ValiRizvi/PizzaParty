@@ -19,7 +19,6 @@ def bestValue(local_stores: dict, allCoupons: dict):
     # calculate surface area of pizza provided by each coupon, add result as a coupon key-value pair to bestValue dict
 
     bestValue = {
-        'storeId': '',
         'chain': '',
         'code': '',
         'value': 0.0
@@ -40,7 +39,7 @@ def bestValue(local_stores: dict, allCoupons: dict):
                 bestValue['value'] = value
 
     
-    bestValue['storeId'] = local_stores[bestValue['chain']]
+    bestValue['store_id'] = local_stores[bestValue['chain']]
     
     return bestValue
 
