@@ -11,8 +11,8 @@ const Background: React.FC = () => {
     
 
     return (
-        <div className="background">
-            <div className="triangles">
+        <div className='background'>
+            <div className='triangles'>
                 {triangles.map((i, index) => (
                     <span 
                         key={index} 

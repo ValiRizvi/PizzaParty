@@ -10,14 +10,14 @@
     justify-content: space-between;
     align-items: center;
     height: 100vh; 
-    gap: 13em; 
+    gap: 10vw; 
 }
 
 .split-box {
     margin: 0 auto;
     padding: 2em;
-    width: 540px;    
-    height: 800px;  
+    width: 32vw;    
+    height: 85vh;  
     background: #212e35;
     text-align: center;
     border-radius: 10px;

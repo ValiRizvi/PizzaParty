@@ -39,10 +39,10 @@
   }
   
   .container button {
-    padding: 1rem 1.5rem;
-    font-size: 1.1rem;
+    padding: 0.5rem;
+    font-size: 1.6rem;
     color: white;
-    background-color: #ff4500;
+    background-color: #00e8c9;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -52,11 +52,11 @@
   }
 
   .container button:hover {
-    background-color: #c43a1b; 
+    background-color: #00d3b7; 
   }
   .container button:active {
     transform: scale(0.98);
-    background-color: #812612;
+    background-color: #00d3b7; 
   }
 
   .container .spinner {

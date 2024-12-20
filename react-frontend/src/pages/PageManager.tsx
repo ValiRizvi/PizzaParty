@@ -29,20 +29,13 @@ const PageManager: React.FC = () => {
             {postalCodeValid ? ( 
                 <div className="split-screen">
 
-                    <div className="split-screen">
-
-                        <div className="split-box split-box-left">
-                            <BestValueButton local_stores={localStores} allCoupons={allCoupons} />
-                        </div>
-
+                    <div className="split-box split-box-left">
+                        <BestValueButton local_stores={localStores} allCoupons={allCoupons} />
                     </div>
 
-                    <div className="split-screen">
 
-                        <div className="split-box split-box-right">
-                            <MostSimilar local_stores={localStores} allCoupons={allCoupons} />
-                        </div>
-
+                    <div className="split-box split-box-right">
+                        <MostSimilar local_stores={localStores} allCoupons={allCoupons} />
                     </div>
 
                 </div>
